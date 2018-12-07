@@ -13,6 +13,18 @@
 		5443DA8821BA9F03008C8B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5443DA8721BA9F03008C8B9E /* Assets.xcassets */; };
 		5443DA8B21BA9F03008C8B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5443DA8921BA9F03008C8B9E /* LaunchScreen.storyboard */; };
 		5443DA8E21BA9F03008C8B9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5443DA8D21BA9F03008C8B9E /* main.m */; };
+		5443DA9721BA9FC4008C8B9E /* ZZManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5443DA9621BA9FC4008C8B9E /* ZZManger.m */; };
+		5443DA9A21BA9FF3008C8B9E /* ZZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5443DA9921BA9FF3008C8B9E /* ZZRequest.m */; };
+		5443DAAC21BAA621008C8B9E /* ZZMangerLow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5443DAAB21BAA621008C8B9E /* ZZMangerLow.m */; };
+		5443DAAF21BAA6E4008C8B9E /* ZZMangerMid.m in Sources */ = {isa = PBXBuildFile; fileRef = 5443DAAE21BAA6E4008C8B9E /* ZZMangerMid.m */; };
+		5443DAB221BAA71B008C8B9E /* ZZMangerHigh.m in Sources */ = {isa = PBXBuildFile; fileRef = 5443DAB121BAA71B008C8B9E /* ZZMangerHigh.m */; };
+		5443DAB521BAA7DA008C8B9E /* ZZChainOfResponsibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5443DAB421BAA7DA008C8B9E /* ZZChainOfResponsibility.m */; };
+		54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035B721BAAC670043B974 /* ZZSingletonA.m */; };
+		54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035BA21BAAD220043B974 /* ZZSingletonB.m */; };
+		54B035BE21BABC890043B974 /* ZZSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035BD21BABC890043B974 /* ZZSingleton.m */; };
+		54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035C021BAC98B0043B974 /* ZZSingletonC.m */; };
+		54B035C421BAC9B30043B974 /* ZZSingletonD.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035C321BAC9B30043B974 /* ZZSingletonD.m */; };
+		54B035CF21BAD8A90043B974 /* ZZSingletonE1.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035CE21BAD8A90043B974 /* ZZSingletonE1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +38,31 @@
 		5443DA8A21BA9F03008C8B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5443DA8C21BA9F03008C8B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5443DA8D21BA9F03008C8B9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5443DA9521BA9FC4008C8B9E /* ZZManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZManger.h; sourceTree = "<group>"; };
+		5443DA9621BA9FC4008C8B9E /* ZZManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZManger.m; sourceTree = "<group>"; };
+		5443DA9821BA9FF3008C8B9E /* ZZRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZRequest.h; sourceTree = "<group>"; };
+		5443DA9921BA9FF3008C8B9E /* ZZRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZRequest.m; sourceTree = "<group>"; };
+		5443DAAA21BAA621008C8B9E /* ZZMangerLow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZMangerLow.h; sourceTree = "<group>"; };
+		5443DAAB21BAA621008C8B9E /* ZZMangerLow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMangerLow.m; sourceTree = "<group>"; };
+		5443DAAD21BAA6E4008C8B9E /* ZZMangerMid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZMangerMid.h; sourceTree = "<group>"; };
+		5443DAAE21BAA6E4008C8B9E /* ZZMangerMid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMangerMid.m; sourceTree = "<group>"; };
+		5443DAB021BAA71B008C8B9E /* ZZMangerHigh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZMangerHigh.h; sourceTree = "<group>"; };
+		5443DAB121BAA71B008C8B9E /* ZZMangerHigh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMangerHigh.m; sourceTree = "<group>"; };
+		5443DAB321BAA7DA008C8B9E /* ZZChainOfResponsibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZChainOfResponsibility.h; sourceTree = "<group>"; };
+		5443DAB421BAA7DA008C8B9E /* ZZChainOfResponsibility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZChainOfResponsibility.m; sourceTree = "<group>"; };
+		54B035B621BAAC670043B974 /* ZZSingletonA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonA.h; sourceTree = "<group>"; };
+		54B035B721BAAC670043B974 /* ZZSingletonA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonA.m; sourceTree = "<group>"; };
+		54B035B921BAAD220043B974 /* ZZSingletonB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonB.h; sourceTree = "<group>"; };
+		54B035BA21BAAD220043B974 /* ZZSingletonB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonB.m; sourceTree = "<group>"; };
+		54B035BC21BABC890043B974 /* ZZSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingleton.h; sourceTree = "<group>"; };
+		54B035BD21BABC890043B974 /* ZZSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingleton.m; sourceTree = "<group>"; };
+		54B035BF21BAC98B0043B974 /* ZZSingletonC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonC.h; sourceTree = "<group>"; };
+		54B035C021BAC98B0043B974 /* ZZSingletonC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonC.m; sourceTree = "<group>"; };
+		54B035C221BAC9B30043B974 /* ZZSingletonD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonD.h; sourceTree = "<group>"; };
+		54B035C321BAC9B30043B974 /* ZZSingletonD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonD.m; sourceTree = "<group>"; };
+		54B035CA21BAD5500043B974 /* ZZSingletonE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonE.h; sourceTree = "<group>"; };
+		54B035CD21BAD8A90043B974 /* ZZSingletonE1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonE1.h; sourceTree = "<group>"; };
+		54B035CE21BAD8A90043B974 /* ZZSingletonE1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonE1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +95,8 @@
 		5443DA7D21BA9F02008C8B9E /* ZZDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				54B035B521BAAC360043B974 /* 单例模式 */,
+				5443DA9421BA9F1C008C8B9E /* 责任链模式 */,
 				5443DA7E21BA9F02008C8B9E /* AppDelegate.h */,
 				5443DA7F21BA9F02008C8B9E /* AppDelegate.m */,
 				5443DA8121BA9F02008C8B9E /* ViewController.h */,
@@ -69,6 +108,61 @@
 				5443DA8D21BA9F03008C8B9E /* main.m */,
 			);
 			path = ZZDesignPatterns;
+			sourceTree = "<group>";
+		};
+		5443DA9421BA9F1C008C8B9E /* 责任链模式 */ = {
+			isa = PBXGroup;
+			children = (
+				54B035C821BAC9E40043B974 /* ChainOfResponsibility */,
+				5443DAB321BAA7DA008C8B9E /* ZZChainOfResponsibility.h */,
+				5443DAB421BAA7DA008C8B9E /* ZZChainOfResponsibility.m */,
+			);
+			path = "责任链模式";
+			sourceTree = "<group>";
+		};
+		54B035B521BAAC360043B974 /* 单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				54B035C921BACA0D0043B974 /* Singleton */,
+				54B035BC21BABC890043B974 /* ZZSingleton.h */,
+				54B035BD21BABC890043B974 /* ZZSingleton.m */,
+			);
+			path = "单例模式";
+			sourceTree = "<group>";
+		};
+		54B035C821BAC9E40043B974 /* ChainOfResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				5443DA9821BA9FF3008C8B9E /* ZZRequest.h */,
+				5443DA9921BA9FF3008C8B9E /* ZZRequest.m */,
+				5443DA9521BA9FC4008C8B9E /* ZZManger.h */,
+				5443DA9621BA9FC4008C8B9E /* ZZManger.m */,
+				5443DAAA21BAA621008C8B9E /* ZZMangerLow.h */,
+				5443DAAB21BAA621008C8B9E /* ZZMangerLow.m */,
+				5443DAAD21BAA6E4008C8B9E /* ZZMangerMid.h */,
+				5443DAAE21BAA6E4008C8B9E /* ZZMangerMid.m */,
+				5443DAB021BAA71B008C8B9E /* ZZMangerHigh.h */,
+				5443DAB121BAA71B008C8B9E /* ZZMangerHigh.m */,
+			);
+			path = ChainOfResponsibility;
+			sourceTree = "<group>";
+		};
+		54B035C921BACA0D0043B974 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				54B035B621BAAC670043B974 /* ZZSingletonA.h */,
+				54B035B721BAAC670043B974 /* ZZSingletonA.m */,
+				54B035B921BAAD220043B974 /* ZZSingletonB.h */,
+				54B035BA21BAAD220043B974 /* ZZSingletonB.m */,
+				54B035BF21BAC98B0043B974 /* ZZSingletonC.h */,
+				54B035C021BAC98B0043B974 /* ZZSingletonC.m */,
+				54B035C221BAC9B30043B974 /* ZZSingletonD.h */,
+				54B035C321BAC9B30043B974 /* ZZSingletonD.m */,
+				54B035CA21BAD5500043B974 /* ZZSingletonE.h */,
+				54B035CD21BAD8A90043B974 /* ZZSingletonE1.h */,
+				54B035CE21BAD8A90043B974 /* ZZSingletonE1.m */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +235,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */,
+				5443DAAC21BAA621008C8B9E /* ZZMangerLow.m in Sources */,
+				5443DA9A21BA9FF3008C8B9E /* ZZRequest.m in Sources */,
+				5443DAB521BAA7DA008C8B9E /* ZZChainOfResponsibility.m in Sources */,
+				54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */,
 				5443DA8321BA9F02008C8B9E /* ViewController.m in Sources */,
+				54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */,
+				5443DAAF21BAA6E4008C8B9E /* ZZMangerMid.m in Sources */,
+				54B035BE21BABC890043B974 /* ZZSingleton.m in Sources */,
 				5443DA8E21BA9F03008C8B9E /* main.m in Sources */,
+				54B035CF21BAD8A90043B974 /* ZZSingletonE1.m in Sources */,
 				5443DA8021BA9F02008C8B9E /* AppDelegate.m in Sources */,
+				5443DA9721BA9FC4008C8B9E /* ZZManger.m in Sources */,
+				54B035C421BAC9B30043B974 /* ZZSingletonD.m in Sources */,
+				5443DAB221BAA71B008C8B9E /* ZZMangerHigh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +393,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZZDesignPatterns/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +410,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZZDesignPatterns/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

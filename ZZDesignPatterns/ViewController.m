@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "ZZChainOfResponsibility.h"
+#import "ZZSingleton.h"
 
 @interface ViewController ()
 
@@ -16,7 +18,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // 责任链模式
+//    [ZZChainOfResponsibility showZZChainOfResponsibility];
+    // 单例模式
+//    [ZZSingleton showZZSingleton];
 }
 
 
