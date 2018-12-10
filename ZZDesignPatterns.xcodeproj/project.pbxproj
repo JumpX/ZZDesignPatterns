@@ -24,6 +24,12 @@
 		5450919E21BE17B500A3701B /* ZZMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450919D21BE17B500A3701B /* ZZMutableArray.m */; };
 		545091A121BE1DDF00A3701B /* ZZIteratorPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091A021BE1DDF00A3701B /* ZZIteratorPattern.m */; };
 		545091A421BE635500A3701B /* ZZIteratorQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091A321BE635500A3701B /* ZZIteratorQueue.m */; };
+		545091AA21BE7B1E00A3701B /* ZZAdapterPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091A921BE7B1E00A3701B /* ZZAdapterPattern.m */; };
+		545091AE21BE7C6400A3701B /* ZZAdapterSimpleSample.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091AD21BE7C6400A3701B /* ZZAdapterSimpleSample.m */; };
+		545091B221BE7F0400A3701B /* ZZAdapterPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091B121BE7F0400A3701B /* ZZAdapterPlayer.m */; };
+		545091BE21BE80FD00A3701B /* ZZAdapterPlayerCBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091BD21BE80FD00A3701B /* ZZAdapterPlayerCBA.m */; };
+		545091C121BE812200A3701B /* ZZAdapterPlayerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091C021BE812200A3701B /* ZZAdapterPlayerAdapter.m */; };
+		545091C421BE813F00A3701B /* ZZAdapterPlayerNBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091C321BE813F00A3701B /* ZZAdapterPlayerNBA.m */; };
 		54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035B721BAAC670043B974 /* ZZSingletonA.m */; };
 		54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035BA21BAAD220043B974 /* ZZSingletonB.m */; };
 		54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035C021BAC98B0043B974 /* ZZSingletonC.m */; };
@@ -64,6 +70,18 @@
 		545091A021BE1DDF00A3701B /* ZZIteratorPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZIteratorPattern.m; sourceTree = "<group>"; };
 		545091A221BE635500A3701B /* ZZIteratorQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZIteratorQueue.h; sourceTree = "<group>"; };
 		545091A321BE635500A3701B /* ZZIteratorQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZIteratorQueue.m; sourceTree = "<group>"; };
+		545091A821BE7B1E00A3701B /* ZZAdapterPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAdapterPattern.h; sourceTree = "<group>"; };
+		545091A921BE7B1E00A3701B /* ZZAdapterPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAdapterPattern.m; sourceTree = "<group>"; };
+		545091AC21BE7C6400A3701B /* ZZAdapterSimpleSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAdapterSimpleSample.h; sourceTree = "<group>"; };
+		545091AD21BE7C6400A3701B /* ZZAdapterSimpleSample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAdapterSimpleSample.m; sourceTree = "<group>"; };
+		545091B021BE7F0400A3701B /* ZZAdapterPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAdapterPlayer.h; sourceTree = "<group>"; };
+		545091B121BE7F0400A3701B /* ZZAdapterPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAdapterPlayer.m; sourceTree = "<group>"; };
+		545091BC21BE80FD00A3701B /* ZZAdapterPlayerCBA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAdapterPlayerCBA.h; sourceTree = "<group>"; };
+		545091BD21BE80FD00A3701B /* ZZAdapterPlayerCBA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAdapterPlayerCBA.m; sourceTree = "<group>"; };
+		545091BF21BE812200A3701B /* ZZAdapterPlayerAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAdapterPlayerAdapter.h; sourceTree = "<group>"; };
+		545091C021BE812200A3701B /* ZZAdapterPlayerAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAdapterPlayerAdapter.m; sourceTree = "<group>"; };
+		545091C221BE813F00A3701B /* ZZAdapterPlayerNBA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAdapterPlayerNBA.h; sourceTree = "<group>"; };
+		545091C321BE813F00A3701B /* ZZAdapterPlayerNBA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAdapterPlayerNBA.m; sourceTree = "<group>"; };
 		54B035B621BAAC670043B974 /* ZZSingletonA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonA.h; sourceTree = "<group>"; };
 		54B035B721BAAC670043B974 /* ZZSingletonA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonA.m; sourceTree = "<group>"; };
 		54B035B921BAAD220043B974 /* ZZSingletonB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonB.h; sourceTree = "<group>"; };
@@ -107,6 +125,7 @@
 		5443DA7D21BA9F02008C8B9E /* ZZDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				545091A621BE7AA700A3701B /* 适配器模式 */,
 				5450919121BE0FA800A3701B /* 迭代器模式 */,
 				54B035B521BAAC360043B974 /* 单例模式 */,
 				5443DA9421BA9F1C008C8B9E /* 责任链模式 */,
@@ -154,6 +173,49 @@
 				545091A321BE635500A3701B /* ZZIteratorQueue.m */,
 			);
 			path = Iterator;
+			sourceTree = "<group>";
+		};
+		545091A621BE7AA700A3701B /* 适配器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				545091A721BE7AE800A3701B /* Adapter */,
+				545091A821BE7B1E00A3701B /* ZZAdapterPattern.h */,
+				545091A921BE7B1E00A3701B /* ZZAdapterPattern.m */,
+			);
+			path = "适配器模式";
+			sourceTree = "<group>";
+		};
+		545091A721BE7AE800A3701B /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				545091AB21BE7C3900A3701B /* SimpleSample */,
+				545091AF21BE7EB700A3701B /* PlayerSample */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		545091AB21BE7C3900A3701B /* SimpleSample */ = {
+			isa = PBXGroup;
+			children = (
+				545091AC21BE7C6400A3701B /* ZZAdapterSimpleSample.h */,
+				545091AD21BE7C6400A3701B /* ZZAdapterSimpleSample.m */,
+			);
+			path = SimpleSample;
+			sourceTree = "<group>";
+		};
+		545091AF21BE7EB700A3701B /* PlayerSample */ = {
+			isa = PBXGroup;
+			children = (
+				545091B021BE7F0400A3701B /* ZZAdapterPlayer.h */,
+				545091B121BE7F0400A3701B /* ZZAdapterPlayer.m */,
+				545091C221BE813F00A3701B /* ZZAdapterPlayerNBA.h */,
+				545091C321BE813F00A3701B /* ZZAdapterPlayerNBA.m */,
+				545091BC21BE80FD00A3701B /* ZZAdapterPlayerCBA.h */,
+				545091BD21BE80FD00A3701B /* ZZAdapterPlayerCBA.m */,
+				545091BF21BE812200A3701B /* ZZAdapterPlayerAdapter.h */,
+				545091C021BE812200A3701B /* ZZAdapterPlayerAdapter.m */,
+			);
+			path = PlayerSample;
 			sourceTree = "<group>";
 		};
 		54B035B521BAAC360043B974 /* 单例模式 */ = {
@@ -271,12 +333,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				545091B221BE7F0400A3701B /* ZZAdapterPlayer.m in Sources */,
+				545091AA21BE7B1E00A3701B /* ZZAdapterPattern.m in Sources */,
 				54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */,
 				5443DAAC21BAA621008C8B9E /* ZZMangerLow.m in Sources */,
 				5443DA9A21BA9FF3008C8B9E /* ZZRequest.m in Sources */,
 				545091A421BE635500A3701B /* ZZIteratorQueue.m in Sources */,
 				54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */,
+				545091C121BE812200A3701B /* ZZAdapterPlayerAdapter.m in Sources */,
 				5450919821BE15F900A3701B /* ZZSingletonPattern.m in Sources */,
+				545091AE21BE7C6400A3701B /* ZZAdapterSimpleSample.m in Sources */,
+				545091BE21BE80FD00A3701B /* ZZAdapterPlayerCBA.m in Sources */,
 				5450919B21BE165B00A3701B /* ZZIterator.m in Sources */,
 				5443DA8321BA9F02008C8B9E /* ViewController.m in Sources */,
 				54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */,
@@ -284,6 +351,7 @@
 				5443DAAF21BAA6E4008C8B9E /* ZZMangerMid.m in Sources */,
 				5443DA8E21BA9F03008C8B9E /* main.m in Sources */,
 				5450919E21BE17B500A3701B /* ZZMutableArray.m in Sources */,
+				545091C421BE813F00A3701B /* ZZAdapterPlayerNBA.m in Sources */,
 				5450919521BE159400A3701B /* ZZChainOfResponsibilityPattern.m in Sources */,
 				54B035CF21BAD8A90043B974 /* ZZSingletonE1.m in Sources */,
 				5443DA8021BA9F02008C8B9E /* AppDelegate.m in Sources */,

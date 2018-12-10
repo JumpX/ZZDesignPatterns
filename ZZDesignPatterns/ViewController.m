@@ -10,6 +10,7 @@
 #import "ZZChainOfResponsibilityPattern.h"
 #import "ZZSingletonPattern.h"
 #import "ZZIteratorPattern.h"
+#import "ZZAdapterPattern.h"
 
 @interface ViewController ()
 
@@ -25,6 +26,8 @@
 //    [ZZSingletonPattern showZZSingletonPattern];
     // 迭代器模式
 //    [ZZIteratorPattern showZZIteratorPattern];
+    // 适配器模式
+//    [ZZAdapterPattern showZZAdapterPattern];
 }
 
 
