@@ -30,6 +30,15 @@
 		545091BE21BE80FD00A3701B /* ZZAdapterPlayerCBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091BD21BE80FD00A3701B /* ZZAdapterPlayerCBA.m */; };
 		545091C121BE812200A3701B /* ZZAdapterPlayerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091C021BE812200A3701B /* ZZAdapterPlayerAdapter.m */; };
 		545091C421BE813F00A3701B /* ZZAdapterPlayerNBA.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091C321BE813F00A3701B /* ZZAdapterPlayerNBA.m */; };
+		545091C821BE970800A3701B /* ZZStatePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091C721BE970800A3701B /* ZZStatePattern.m */; };
+		545091CC21BE973500A3701B /* ZZStateWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091CB21BE973500A3701B /* ZZStateWork.m */; };
+		545091CF21BE974B00A3701B /* ZZStateStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091CE21BE974B00A3701B /* ZZStateStatus.m */; };
+		545091D221BE976F00A3701B /* ZZStateMorning.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091D121BE976F00A3701B /* ZZStateMorning.m */; };
+		545091D521BE977C00A3701B /* ZZStateNoon.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091D421BE977C00A3701B /* ZZStateNoon.m */; };
+		545091D821BE979700A3701B /* ZZStateAfternoon.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091D721BE979700A3701B /* ZZStateAfternoon.m */; };
+		545091DB21BE97A600A3701B /* ZZStateEvening.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091DA21BE97A600A3701B /* ZZStateEvening.m */; };
+		545091DE21BE97FC00A3701B /* ZZStateOffwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091DD21BE97FC00A3701B /* ZZStateOffwork.m */; };
+		545091E121BE980E00A3701B /* ZZStateSleeping.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091E021BE980E00A3701B /* ZZStateSleeping.m */; };
 		54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035B721BAAC670043B974 /* ZZSingletonA.m */; };
 		54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035BA21BAAD220043B974 /* ZZSingletonB.m */; };
 		54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035C021BAC98B0043B974 /* ZZSingletonC.m */; };
@@ -82,6 +91,24 @@
 		545091C021BE812200A3701B /* ZZAdapterPlayerAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAdapterPlayerAdapter.m; sourceTree = "<group>"; };
 		545091C221BE813F00A3701B /* ZZAdapterPlayerNBA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAdapterPlayerNBA.h; sourceTree = "<group>"; };
 		545091C321BE813F00A3701B /* ZZAdapterPlayerNBA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAdapterPlayerNBA.m; sourceTree = "<group>"; };
+		545091C621BE970800A3701B /* ZZStatePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZStatePattern.h; sourceTree = "<group>"; };
+		545091C721BE970800A3701B /* ZZStatePattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZStatePattern.m; sourceTree = "<group>"; };
+		545091CA21BE973500A3701B /* ZZStateWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZStateWork.h; sourceTree = "<group>"; };
+		545091CB21BE973500A3701B /* ZZStateWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZStateWork.m; sourceTree = "<group>"; };
+		545091CD21BE974B00A3701B /* ZZStateStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZStateStatus.h; sourceTree = "<group>"; };
+		545091CE21BE974B00A3701B /* ZZStateStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZStateStatus.m; sourceTree = "<group>"; };
+		545091D021BE976F00A3701B /* ZZStateMorning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZStateMorning.h; sourceTree = "<group>"; };
+		545091D121BE976F00A3701B /* ZZStateMorning.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZStateMorning.m; sourceTree = "<group>"; };
+		545091D321BE977C00A3701B /* ZZStateNoon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZStateNoon.h; sourceTree = "<group>"; };
+		545091D421BE977C00A3701B /* ZZStateNoon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZStateNoon.m; sourceTree = "<group>"; };
+		545091D621BE979700A3701B /* ZZStateAfternoon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZStateAfternoon.h; sourceTree = "<group>"; };
+		545091D721BE979700A3701B /* ZZStateAfternoon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZStateAfternoon.m; sourceTree = "<group>"; };
+		545091D921BE97A600A3701B /* ZZStateEvening.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZStateEvening.h; sourceTree = "<group>"; };
+		545091DA21BE97A600A3701B /* ZZStateEvening.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZStateEvening.m; sourceTree = "<group>"; };
+		545091DC21BE97FC00A3701B /* ZZStateOffwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZStateOffwork.h; sourceTree = "<group>"; };
+		545091DD21BE97FC00A3701B /* ZZStateOffwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZStateOffwork.m; sourceTree = "<group>"; };
+		545091DF21BE980E00A3701B /* ZZStateSleeping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZStateSleeping.h; sourceTree = "<group>"; };
+		545091E021BE980E00A3701B /* ZZStateSleeping.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZStateSleeping.m; sourceTree = "<group>"; };
 		54B035B621BAAC670043B974 /* ZZSingletonA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonA.h; sourceTree = "<group>"; };
 		54B035B721BAAC670043B974 /* ZZSingletonA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonA.m; sourceTree = "<group>"; };
 		54B035B921BAAD220043B974 /* ZZSingletonB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonB.h; sourceTree = "<group>"; };
@@ -125,6 +152,7 @@
 		5443DA7D21BA9F02008C8B9E /* ZZDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				545091C521BE96E300A3701B /* 状态模式 */,
 				545091A621BE7AA700A3701B /* 适配器模式 */,
 				5450919121BE0FA800A3701B /* 迭代器模式 */,
 				54B035B521BAAC360043B974 /* 单例模式 */,
@@ -216,6 +244,39 @@
 				545091C021BE812200A3701B /* ZZAdapterPlayerAdapter.m */,
 			);
 			path = PlayerSample;
+			sourceTree = "<group>";
+		};
+		545091C521BE96E300A3701B /* 状态模式 */ = {
+			isa = PBXGroup;
+			children = (
+				545091C921BE971200A3701B /* State */,
+				545091C621BE970800A3701B /* ZZStatePattern.h */,
+				545091C721BE970800A3701B /* ZZStatePattern.m */,
+			);
+			path = "状态模式";
+			sourceTree = "<group>";
+		};
+		545091C921BE971200A3701B /* State */ = {
+			isa = PBXGroup;
+			children = (
+				545091CA21BE973500A3701B /* ZZStateWork.h */,
+				545091CB21BE973500A3701B /* ZZStateWork.m */,
+				545091CD21BE974B00A3701B /* ZZStateStatus.h */,
+				545091CE21BE974B00A3701B /* ZZStateStatus.m */,
+				545091D021BE976F00A3701B /* ZZStateMorning.h */,
+				545091D121BE976F00A3701B /* ZZStateMorning.m */,
+				545091D321BE977C00A3701B /* ZZStateNoon.h */,
+				545091D421BE977C00A3701B /* ZZStateNoon.m */,
+				545091D621BE979700A3701B /* ZZStateAfternoon.h */,
+				545091D721BE979700A3701B /* ZZStateAfternoon.m */,
+				545091D921BE97A600A3701B /* ZZStateEvening.h */,
+				545091DA21BE97A600A3701B /* ZZStateEvening.m */,
+				545091DC21BE97FC00A3701B /* ZZStateOffwork.h */,
+				545091DD21BE97FC00A3701B /* ZZStateOffwork.m */,
+				545091DF21BE980E00A3701B /* ZZStateSleeping.h */,
+				545091E021BE980E00A3701B /* ZZStateSleeping.m */,
+			);
+			path = State;
 			sourceTree = "<group>";
 		};
 		54B035B521BAAC360043B974 /* 单例模式 */ = {
@@ -338,15 +399,20 @@
 				54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */,
 				5443DAAC21BAA621008C8B9E /* ZZMangerLow.m in Sources */,
 				5443DA9A21BA9FF3008C8B9E /* ZZRequest.m in Sources */,
+				545091D521BE977C00A3701B /* ZZStateNoon.m in Sources */,
+				545091D821BE979700A3701B /* ZZStateAfternoon.m in Sources */,
 				545091A421BE635500A3701B /* ZZIteratorQueue.m in Sources */,
 				54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */,
 				545091C121BE812200A3701B /* ZZAdapterPlayerAdapter.m in Sources */,
 				5450919821BE15F900A3701B /* ZZSingletonPattern.m in Sources */,
 				545091AE21BE7C6400A3701B /* ZZAdapterSimpleSample.m in Sources */,
+				545091DB21BE97A600A3701B /* ZZStateEvening.m in Sources */,
 				545091BE21BE80FD00A3701B /* ZZAdapterPlayerCBA.m in Sources */,
+				545091CF21BE974B00A3701B /* ZZStateStatus.m in Sources */,
 				5450919B21BE165B00A3701B /* ZZIterator.m in Sources */,
 				5443DA8321BA9F02008C8B9E /* ViewController.m in Sources */,
 				54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */,
+				545091C821BE970800A3701B /* ZZStatePattern.m in Sources */,
 				545091A121BE1DDF00A3701B /* ZZIteratorPattern.m in Sources */,
 				5443DAAF21BAA6E4008C8B9E /* ZZMangerMid.m in Sources */,
 				5443DA8E21BA9F03008C8B9E /* main.m in Sources */,
@@ -355,9 +421,13 @@
 				5450919521BE159400A3701B /* ZZChainOfResponsibilityPattern.m in Sources */,
 				54B035CF21BAD8A90043B974 /* ZZSingletonE1.m in Sources */,
 				5443DA8021BA9F02008C8B9E /* AppDelegate.m in Sources */,
+				545091CC21BE973500A3701B /* ZZStateWork.m in Sources */,
+				545091E121BE980E00A3701B /* ZZStateSleeping.m in Sources */,
 				5443DA9721BA9FC4008C8B9E /* ZZManger.m in Sources */,
+				545091D221BE976F00A3701B /* ZZStateMorning.m in Sources */,
 				54B035C421BAC9B30043B974 /* ZZSingletonD.m in Sources */,
 				5443DAB221BAA71B008C8B9E /* ZZMangerHigh.m in Sources */,
+				545091DE21BE97FC00A3701B /* ZZStateOffwork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

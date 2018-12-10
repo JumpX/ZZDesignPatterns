@@ -11,6 +11,7 @@
 #import "ZZSingletonPattern.h"
 #import "ZZIteratorPattern.h"
 #import "ZZAdapterPattern.h"
+#import "ZZStatePattern.h"
 
 @interface ViewController ()
 
@@ -28,6 +29,8 @@
 //    [ZZIteratorPattern showZZIteratorPattern];
     // 适配器模式
 //    [ZZAdapterPattern showZZAdapterPattern];
+    // 状态模式
+//    [ZZStatePattern showZZStatePattern];
 }
 
 
