@@ -1,22 +1,22 @@
 //
-//  ZZSingleton.m
+//  ZZSingletonPattern.m
 //  ZZDesignPatterns
 //
-//  Created by 徐勉俊 on 2018/12/7.
+//  Created by 徐勉俊 on 2018/12/10.
 //  Copyright © 2018 Jungle. All rights reserved.
 //
 
-#import "ZZSingleton.h"
+#import "ZZSingletonPattern.h"
 
-@implementation ZZSingleton
+@implementation ZZSingletonPattern
 
-+ (void)showZZSingleton
++ (void)showZZSingletonPattern
 {
-    [ZZSingleton showA];
-    [ZZSingleton showB];
-    [ZZSingleton showC];
-    [ZZSingleton showD];
-    [ZZSingleton showE];
+    [ZZSingletonPattern showA];
+    [ZZSingletonPattern showB];
+    [ZZSingletonPattern showC];
+    [ZZSingletonPattern showD];
+    [ZZSingletonPattern showE];
 }
 
 + (void)showE
@@ -46,10 +46,10 @@
             NSLog(@"%@", B.debugDescription);
         });
     }
-//    ZZSingletonB *B = [ZZSingletonB new];
-//    NSLog(@"%@", B.debugDescription);
-//    B = [ZZSingletonB sharedInstance].copy;
-//    NSLog(@"%@", B.debugDescription);
+    //    ZZSingletonB *B = [ZZSingletonB new];
+    //    NSLog(@"%@", B.debugDescription);
+    //    B = [ZZSingletonB sharedInstance].copy;
+    //    NSLog(@"%@", B.debugDescription);
 }
 
 + (void)showA

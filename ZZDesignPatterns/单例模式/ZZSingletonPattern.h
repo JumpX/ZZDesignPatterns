@@ -1,8 +1,8 @@
 //
-//  ZZSingleton.h
+//  ZZSingletonPattern.h
 //  ZZDesignPatterns
 //
-//  Created by 徐勉俊 on 2018/12/7.
+//  Created by 徐勉俊 on 2018/12/10.
 //  Copyright © 2018 Jungle. All rights reserved.
 //
 
@@ -13,8 +13,8 @@
 #import "ZZSingletonD.h"
 #import "ZZSingletonE1.h"
 
-@interface ZZSingleton : NSObject
+@interface ZZSingletonPattern : NSObject
 
-+ (void)showZZSingleton;
++ (void)showZZSingletonPattern;
 
 @end

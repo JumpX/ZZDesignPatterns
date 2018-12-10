@@ -1,8 +1,8 @@
 //
-//  ZZChainOfResponsibility.h
+//  ZZChainOfResponsibilityPattern.h
 //  ZZDesignPatterns
 //
-//  Created by 徐勉俊 on 2018/12/7.
+//  Created by 徐勉俊 on 2018/12/10.
 //  Copyright © 2018 Jungle. All rights reserved.
 //
 
@@ -12,12 +12,8 @@
 #import "ZZMangerMid.h"
 #import "ZZMangerHigh.h"
 
-NS_ASSUME_NONNULL_BEGIN
+@interface ZZChainOfResponsibilityPattern : NSObject
 
-@interface ZZChainOfResponsibility : NSObject
-
-+ (void)showZZChainOfResponsibility;
++ (void)showZZChainOfResponsibilityPattern;
 
 @end
-
-NS_ASSUME_NONNULL_END

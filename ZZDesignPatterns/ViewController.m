@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "ZZChainOfResponsibility.h"
-#import "ZZSingleton.h"
+#import "ZZChainOfResponsibilityPattern.h"
+#import "ZZSingletonPattern.h"
+#import "ZZIteratorPattern.h"
 
 @interface ViewController ()
 
@@ -19,9 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // 责任链模式
-//    [ZZChainOfResponsibility showZZChainOfResponsibility];
+//    [ZZChainOfResponsibilityPattern showZZChainOfResponsibilityPattern];
     // 单例模式
-//    [ZZSingleton showZZSingleton];
+//    [ZZSingletonPattern showZZSingletonPattern];
+    // 迭代器模式
+//    [ZZIteratorPattern showZZIteratorPattern];
 }
 
 

@@ -1,16 +1,16 @@
 //
-//  ZZChainOfResponsibility.m
+//  ZZChainOfResponsibilityPattern.m
 //  ZZDesignPatterns
 //
-//  Created by 徐勉俊 on 2018/12/7.
+//  Created by 徐勉俊 on 2018/12/10.
 //  Copyright © 2018 Jungle. All rights reserved.
 //
 
-#import "ZZChainOfResponsibility.h"
+#import "ZZChainOfResponsibilityPattern.h"
 
-@implementation ZZChainOfResponsibility
+@implementation ZZChainOfResponsibilityPattern
 
-+ (void)showZZChainOfResponsibility
++ (void)showZZChainOfResponsibilityPattern
 {
     ZZMangerLow *low = [ZZMangerLow new];
     ZZMangerMid *mid = [ZZMangerMid new];
@@ -30,7 +30,7 @@
     
     request.days = 8;
     [low handleRequest:request];
-
+    
     request.days = 100;
     [low handleRequest:request];
 }

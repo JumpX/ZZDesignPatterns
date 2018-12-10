@@ -4,19 +4,13 @@
    version = "2.0">
    <Breakpoints>
       <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ZZDesignPatterns/&#x5355;&#x4f8b;&#x6a21;&#x5f0f;/ZZSingletonA.m"
-            timestampString = "565889233.423341"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "+allocWithZone:"
-            landmarkType = "7">
+            scope = "0"
+            stopOnStyle = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -25,13 +19,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "ZZDesignPatterns/&#x5355;&#x4f8b;&#x6a21;&#x5f0f;/Singleton/ZZSingletonC.m"
-            timestampString = "565893691.9255511"
+            filePath = "ZZDesignPatterns/&#x8fed;&#x4ee3;&#x5668;&#x6a21;&#x5f0f;/Iterator/ZZIterator.m"
+            timestampString = "566131098.954335"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "-init"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "-iteratorObjectsUsingBlock:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
