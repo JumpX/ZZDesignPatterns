@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ZZBuilderPattern.h"
+#import "ZZPrototypePattern.h"
 #import "ZZSingletonPattern.h"
 #import "ZZAdapterPattern.h"
 #import "ZZFacadePatterm.h"
@@ -23,6 +24,8 @@
     
     // 3.建造者模式
 //    [ZZBuilderPattern showZZBuilderPattern];
+    // 4.原型模式
+    [ZZPrototypePattern showZZPrototypePattern];
     // 5.单例模式
 //    [ZZSingletonPattern showZZSingletonPattern];
     // 6.适配器模式

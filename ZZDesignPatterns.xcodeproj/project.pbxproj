@@ -56,6 +56,9 @@
 		5450922321BFDC9300A3701B /* ZZTemplateMethodAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450922221BFDC9300A3701B /* ZZTemplateMethodAnswer.m */; };
 		5450922621BFDCA900A3701B /* ZZTemplateMethodAnswerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450922521BFDCA900A3701B /* ZZTemplateMethodAnswerA.m */; };
 		5450922921BFDCB300A3701B /* ZZTemplateMethodAnswerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450922821BFDCB300A3701B /* ZZTemplateMethodAnswerB.m */; };
+		5450922E21BFE44000A3701B /* ZZPrototypePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450922D21BFE44000A3701B /* ZZPrototypePattern.m */; };
+		5450923121BFE8E000A3701B /* ZZPrototypeWorkHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450923021BFE8E000A3701B /* ZZPrototypeWorkHistory.m */; };
+		5450923421BFE90400A3701B /* ZZPrototypeResume.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450923321BFE90400A3701B /* ZZPrototypeResume.m */; };
 		54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035B721BAAC670043B974 /* ZZSingletonA.m */; };
 		54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035BA21BAAD220043B974 /* ZZSingletonB.m */; };
 		54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035C021BAC98B0043B974 /* ZZSingletonC.m */; };
@@ -160,6 +163,12 @@
 		5450922521BFDCA900A3701B /* ZZTemplateMethodAnswerA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTemplateMethodAnswerA.m; sourceTree = "<group>"; };
 		5450922721BFDCB300A3701B /* ZZTemplateMethodAnswerB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZTemplateMethodAnswerB.h; sourceTree = "<group>"; };
 		5450922821BFDCB300A3701B /* ZZTemplateMethodAnswerB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTemplateMethodAnswerB.m; sourceTree = "<group>"; };
+		5450922C21BFE44000A3701B /* ZZPrototypePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPrototypePattern.h; sourceTree = "<group>"; };
+		5450922D21BFE44000A3701B /* ZZPrototypePattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPrototypePattern.m; sourceTree = "<group>"; };
+		5450922F21BFE8E000A3701B /* ZZPrototypeWorkHistory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPrototypeWorkHistory.h; sourceTree = "<group>"; };
+		5450923021BFE8E000A3701B /* ZZPrototypeWorkHistory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPrototypeWorkHistory.m; sourceTree = "<group>"; };
+		5450923221BFE90400A3701B /* ZZPrototypeResume.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPrototypeResume.h; sourceTree = "<group>"; };
+		5450923321BFE90400A3701B /* ZZPrototypeResume.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPrototypeResume.m; sourceTree = "<group>"; };
 		54B035B621BAAC670043B974 /* ZZSingletonA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonA.h; sourceTree = "<group>"; };
 		54B035B721BAAC670043B974 /* ZZSingletonA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonA.m; sourceTree = "<group>"; };
 		54B035B921BAAD220043B974 /* ZZSingletonB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonB.h; sourceTree = "<group>"; };
@@ -203,6 +212,7 @@
 		5443DA7D21BA9F02008C8B9E /* ZZDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				5450922A21BFE3F300A3701B /* 原型模式 */,
 				545091E521BFB31E00A3701B /* 建造者模式 */,
 				54B035B521BAAC360043B974 /* 单例模式 */,
 				545091A621BE7AA700A3701B /* 适配器模式 */,
@@ -412,6 +422,27 @@
 			path = TemplateMethod;
 			sourceTree = "<group>";
 		};
+		5450922A21BFE3F300A3701B /* 原型模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5450922B21BFE42500A3701B /* Prototype */,
+				5450922C21BFE44000A3701B /* ZZPrototypePattern.h */,
+				5450922D21BFE44000A3701B /* ZZPrototypePattern.m */,
+			);
+			path = "原型模式";
+			sourceTree = "<group>";
+		};
+		5450922B21BFE42500A3701B /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				5450923221BFE90400A3701B /* ZZPrototypeResume.h */,
+				5450923321BFE90400A3701B /* ZZPrototypeResume.m */,
+				5450922F21BFE8E000A3701B /* ZZPrototypeWorkHistory.h */,
+				5450923021BFE8E000A3701B /* ZZPrototypeWorkHistory.m */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
 		54B035B521BAAC360043B974 /* 单例模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -550,6 +581,7 @@
 				545091CF21BE974B00A3701B /* ZZStateStatus.m in Sources */,
 				5450922621BFDCA900A3701B /* ZZTemplateMethodAnswerA.m in Sources */,
 				5450919B21BE165B00A3701B /* ZZIterator.m in Sources */,
+				5450923121BFE8E000A3701B /* ZZPrototypeWorkHistory.m in Sources */,
 				5443DA8321BA9F02008C8B9E /* ViewController.m in Sources */,
 				54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */,
 				545091C821BE970800A3701B /* ZZStatePattern.m in Sources */,
@@ -578,6 +610,8 @@
 				5443DAB221BAA71B008C8B9E /* ZZMangerHigh.m in Sources */,
 				545091DE21BE97FC00A3701B /* ZZStateOffwork.m in Sources */,
 				5450922321BFDC9300A3701B /* ZZTemplateMethodAnswer.m in Sources */,
+				5450922E21BFE44000A3701B /* ZZPrototypePattern.m in Sources */,
+				5450923421BFE90400A3701B /* ZZPrototypeResume.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

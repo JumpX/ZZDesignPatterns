@@ -49,6 +49,30 @@
 	- 拿到建造者生成的产品
 	- 展示产品
 
+### 4.原型模式（Prototype Pattern）
+
+原型模式：用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的对象。
+
+**本质是从一个对象再创建另外一个可定制的对象，而且不需要知道任何创建的细节。**
+
+有些对象自带copy、mutableCopy方法：NSNumber、NSString、NSArray、NSDictionary、NSMutableArray、NSMutableDictionay、NSMutableString。**需要注意深浅拷贝的区别。**
+
+对象实现 **NSCoping** 协议及`- (id)copyWithZone:(NSZone *)zone`
+方法:
+
+```
+- (id)copyWithZone:(NSZone *)zone
+{
+    // 此处得用[self class]，否则子类调用copy协议会有问题
+    ZZPrototypeResume *resume = [[[self class] allocWithZone:zone] init];
+    resume.name = _name;
+    resume.age = _age;
+    resume.sex = _sex;
+    resume.work = [_work copy];
+    return resume;
+}
+```
+
 ### 5.单例模式（Singleton Pattern）
 
 + 实现方式主要分2种：
@@ -248,6 +272,6 @@ typedef NS_OPTIONS(NSUInteger, ZZIteratorOptions)
 
 ### 22.模板方法模式（Template Method Pattern）
 
-模板方法模式，其实就是抽象出一个模板类，定义并实现一个模板方法，且该方法是具体的具有顶级逻辑的骨架，而其中涉及的一些变量和方法，是需要推迟到子类中去实现，从而使得顶级逻辑的实现各不相同。
+模板方法模式，**其实就是抽象出一个模板类，定义并实现一个模板方法，且该方法是具体的具有顶级逻辑的骨架，而其中涉及的一些变量和方法，是需要推迟到子类中去实现，从而使得顶级逻辑的实现各不相同。**
 
-简单可以理解为，模板方法模式，是通过把不变行为搬到父类，去除子类中的重复代码，从而体现其优势。
+简单可以理解为：**模板方法模式，是通过把不变行为搬到父类，去除子类中的重复代码，从而体现其优势。**
