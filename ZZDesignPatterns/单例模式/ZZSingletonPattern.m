@@ -7,6 +7,11 @@
 //
 
 #import "ZZSingletonPattern.h"
+#import "ZZSingletonA.h"
+#import "ZZSingletonB.h"
+#import "ZZSingletonC.h"
+#import "ZZSingletonD.h"
+#import "ZZSingletonE1.h"
 
 @implementation ZZSingletonPattern
 

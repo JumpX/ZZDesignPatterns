@@ -11,10 +11,10 @@
 |4.|原型模式|Prototype Pattern|
 |5.|单例模式|Singleton Pattern|
 |6.|适配器模式|Adapter Pattern|
-|7.|桥梁模式/桥接模式|Bridge Pattern|
+|7.|桥接模式|Bridge Pattern|
 |8.|组合模式|Composite Pattern|
 |9.|装饰模式|Decorator Pattern|
-|10.|门面模式/外观模式|Facade Pattern|
+|10.|外观模式|Facade Pattern|
 |11.|享元模式|Flyweight Pattern|
 |12.|代理模式|Proxy pattern|
 |13.|责任链模式|Chain of Responsibility Pattern|
@@ -170,6 +170,14 @@ ZZSingletonIMP(ZZSingletonE1)
 
 - ZZAdapterSimpleSample
 - ZZAdapterPlayer
+
+### 10.外观模式
+
+首先，在设计初期，应有意识的进行分层，比如经典的三层架构：数据访问层、业务逻辑层、表示层。层与层之间可以建立外观Facade，提供简单的接口的供层与层之间访问，降低耦合。
+
+其次，在开发阶段，也会因为不断加需重构等演化而变得越加复杂，给外部使用调用变得复杂，可以增加外观Facade，重新提供简单接口供他人调用。
+
+第三，维护遗留大型项目，非常难维护，删不敢删，重构又没足够时间和魄力，此时可以使用外观模式，即再增加一个Facade类，将遗留代码封装成一个简单接口，让遗留代码与Facade对象交互，Facade与新的需求代码交互。
 
 ### 13.责任链模式
 

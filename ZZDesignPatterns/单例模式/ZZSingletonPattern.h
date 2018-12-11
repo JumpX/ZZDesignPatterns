@@ -7,11 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ZZSingletonA.h"
-#import "ZZSingletonB.h"
-#import "ZZSingletonC.h"
-#import "ZZSingletonD.h"
-#import "ZZSingletonE1.h"
 
 @interface ZZSingletonPattern : NSObject
 

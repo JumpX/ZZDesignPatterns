@@ -45,6 +45,12 @@
 		545091F221BFB3DF00A3701B /* ZZBuilderMacBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091F121BFB3DF00A3701B /* ZZBuilderMacBuilder.m */; };
 		545091F521BFB3F000A3701B /* ZZBuilderWindowsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091F421BFB3F000A3701B /* ZZBuilderWindowsBuilder.m */; };
 		545091F821BFB41000A3701B /* ZZBuilderDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091F721BFB41000A3701B /* ZZBuilderDirector.m */; };
+		545091FC21BFCACF00A3701B /* ZZFacadePatterm.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091FB21BFCACF00A3701B /* ZZFacadePatterm.m */; };
+		5450920621BFCBA500A3701B /* ZZFacadeSpring.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450920521BFCBA500A3701B /* ZZFacadeSpring.m */; };
+		5450920921BFCBB300A3701B /* ZZFacadeSummer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450920821BFCBB300A3701B /* ZZFacadeSummer.m */; };
+		5450920C21BFCBCD00A3701B /* ZZFacadeAutumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450920B21BFCBCD00A3701B /* ZZFacadeAutumn.m */; };
+		5450920F21BFCBE600A3701B /* ZZFacadeWinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450920E21BFCBE600A3701B /* ZZFacadeWinter.m */; };
+		5450921221BFCD3A00A3701B /* ZZFacadeWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450921121BFCD3A00A3701B /* ZZFacadeWeather.m */; };
 		54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035B721BAAC670043B974 /* ZZSingletonA.m */; };
 		54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035BA21BAAD220043B974 /* ZZSingletonB.m */; };
 		54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035C021BAC98B0043B974 /* ZZSingletonC.m */; };
@@ -127,6 +133,18 @@
 		545091F421BFB3F000A3701B /* ZZBuilderWindowsBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBuilderWindowsBuilder.m; sourceTree = "<group>"; };
 		545091F621BFB41000A3701B /* ZZBuilderDirector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBuilderDirector.h; sourceTree = "<group>"; };
 		545091F721BFB41000A3701B /* ZZBuilderDirector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBuilderDirector.m; sourceTree = "<group>"; };
+		545091FA21BFCACF00A3701B /* ZZFacadePatterm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFacadePatterm.h; sourceTree = "<group>"; };
+		545091FB21BFCACF00A3701B /* ZZFacadePatterm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFacadePatterm.m; sourceTree = "<group>"; };
+		5450920421BFCBA500A3701B /* ZZFacadeSpring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFacadeSpring.h; sourceTree = "<group>"; };
+		5450920521BFCBA500A3701B /* ZZFacadeSpring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFacadeSpring.m; sourceTree = "<group>"; };
+		5450920721BFCBB300A3701B /* ZZFacadeSummer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFacadeSummer.h; sourceTree = "<group>"; };
+		5450920821BFCBB300A3701B /* ZZFacadeSummer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFacadeSummer.m; sourceTree = "<group>"; };
+		5450920A21BFCBCD00A3701B /* ZZFacadeAutumn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFacadeAutumn.h; sourceTree = "<group>"; };
+		5450920B21BFCBCD00A3701B /* ZZFacadeAutumn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFacadeAutumn.m; sourceTree = "<group>"; };
+		5450920D21BFCBE600A3701B /* ZZFacadeWinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFacadeWinter.h; sourceTree = "<group>"; };
+		5450920E21BFCBE600A3701B /* ZZFacadeWinter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFacadeWinter.m; sourceTree = "<group>"; };
+		5450921021BFCD3A00A3701B /* ZZFacadeWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFacadeWeather.h; sourceTree = "<group>"; };
+		5450921121BFCD3A00A3701B /* ZZFacadeWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFacadeWeather.m; sourceTree = "<group>"; };
 		54B035B621BAAC670043B974 /* ZZSingletonA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonA.h; sourceTree = "<group>"; };
 		54B035B721BAAC670043B974 /* ZZSingletonA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonA.m; sourceTree = "<group>"; };
 		54B035B921BAAD220043B974 /* ZZSingletonB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonB.h; sourceTree = "<group>"; };
@@ -171,11 +189,12 @@
 			isa = PBXGroup;
 			children = (
 				545091E521BFB31E00A3701B /* 建造者模式 */,
-				545091C521BE96E300A3701B /* 状态模式 */,
-				545091A621BE7AA700A3701B /* 适配器模式 */,
-				5450919121BE0FA800A3701B /* 迭代器模式 */,
 				54B035B521BAAC360043B974 /* 单例模式 */,
+				545091A621BE7AA700A3701B /* 适配器模式 */,
+				545091F921BFCAAD00A3701B /* 外观模式 */,
 				5443DA9421BA9F1C008C8B9E /* 责任链模式 */,
+				5450919121BE0FA800A3701B /* 迭代器模式 */,
+				545091C521BE96E300A3701B /* 状态模式 */,
 				5443DA7E21BA9F02008C8B9E /* AppDelegate.h */,
 				5443DA7F21BA9F02008C8B9E /* AppDelegate.m */,
 				5443DA8121BA9F02008C8B9E /* ViewController.h */,
@@ -325,6 +344,33 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
+		545091F921BFCAAD00A3701B /* 外观模式 */ = {
+			isa = PBXGroup;
+			children = (
+				545091FD21BFCAD600A3701B /* Facade */,
+				545091FA21BFCACF00A3701B /* ZZFacadePatterm.h */,
+				545091FB21BFCACF00A3701B /* ZZFacadePatterm.m */,
+			);
+			path = "外观模式";
+			sourceTree = "<group>";
+		};
+		545091FD21BFCAD600A3701B /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				5450920421BFCBA500A3701B /* ZZFacadeSpring.h */,
+				5450920521BFCBA500A3701B /* ZZFacadeSpring.m */,
+				5450920721BFCBB300A3701B /* ZZFacadeSummer.h */,
+				5450920821BFCBB300A3701B /* ZZFacadeSummer.m */,
+				5450920A21BFCBCD00A3701B /* ZZFacadeAutumn.h */,
+				5450920B21BFCBCD00A3701B /* ZZFacadeAutumn.m */,
+				5450920D21BFCBE600A3701B /* ZZFacadeWinter.h */,
+				5450920E21BFCBE600A3701B /* ZZFacadeWinter.m */,
+				5450921021BFCD3A00A3701B /* ZZFacadeWeather.h */,
+				5450921121BFCD3A00A3701B /* ZZFacadeWeather.m */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
 		54B035B521BAAC360043B974 /* 单例模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -441,6 +487,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				545091E821BFB34F00A3701B /* ZZBuilderPattern.m in Sources */,
+				5450920C21BFCBCD00A3701B /* ZZFacadeAutumn.m in Sources */,
 				545091B221BE7F0400A3701B /* ZZAdapterPlayer.m in Sources */,
 				545091AA21BE7B1E00A3701B /* ZZAdapterPattern.m in Sources */,
 				54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */,
@@ -456,14 +503,18 @@
 				545091AE21BE7C6400A3701B /* ZZAdapterSimpleSample.m in Sources */,
 				545091DB21BE97A600A3701B /* ZZStateEvening.m in Sources */,
 				545091BE21BE80FD00A3701B /* ZZAdapterPlayerCBA.m in Sources */,
+				5450921221BFCD3A00A3701B /* ZZFacadeWeather.m in Sources */,
 				545091CF21BE974B00A3701B /* ZZStateStatus.m in Sources */,
 				5450919B21BE165B00A3701B /* ZZIterator.m in Sources */,
 				5443DA8321BA9F02008C8B9E /* ViewController.m in Sources */,
 				54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */,
 				545091C821BE970800A3701B /* ZZStatePattern.m in Sources */,
+				5450920621BFCBA500A3701B /* ZZFacadeSpring.m in Sources */,
 				545091A121BE1DDF00A3701B /* ZZIteratorPattern.m in Sources */,
 				5443DAAF21BAA6E4008C8B9E /* ZZMangerMid.m in Sources */,
 				5443DA8E21BA9F03008C8B9E /* main.m in Sources */,
+				5450920F21BFCBE600A3701B /* ZZFacadeWinter.m in Sources */,
+				545091FC21BFCACF00A3701B /* ZZFacadePatterm.m in Sources */,
 				5450919E21BE17B500A3701B /* ZZMutableArray.m in Sources */,
 				545091EF21BFB3AE00A3701B /* ZZBuilderBuilder.m in Sources */,
 				545091C421BE813F00A3701B /* ZZAdapterPlayerNBA.m in Sources */,
@@ -473,6 +524,7 @@
 				545091CC21BE973500A3701B /* ZZStateWork.m in Sources */,
 				545091F521BFB3F000A3701B /* ZZBuilderWindowsBuilder.m in Sources */,
 				545091EC21BFB38100A3701B /* ZZBuilderProduct.m in Sources */,
+				5450920921BFCBB300A3701B /* ZZFacadeSummer.m in Sources */,
 				545091E121BE980E00A3701B /* ZZStateSleeping.m in Sources */,
 				5443DA9721BA9FC4008C8B9E /* ZZManger.m in Sources */,
 				545091F221BFB3DF00A3701B /* ZZBuilderMacBuilder.m in Sources */,

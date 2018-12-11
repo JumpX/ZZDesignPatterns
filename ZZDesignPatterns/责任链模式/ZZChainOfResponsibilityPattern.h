@@ -7,10 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ZZManger.h"
-#import "ZZMangerLow.h"
-#import "ZZMangerMid.h"
-#import "ZZMangerHigh.h"
 
 @interface ZZChainOfResponsibilityPattern : NSObject
 

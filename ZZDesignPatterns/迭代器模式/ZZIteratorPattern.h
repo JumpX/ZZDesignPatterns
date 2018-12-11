@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ZZIterator.h"
 
 @interface ZZIteratorPattern : NSObject
 

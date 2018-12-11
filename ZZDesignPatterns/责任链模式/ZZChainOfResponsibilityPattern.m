@@ -7,6 +7,10 @@
 //
 
 #import "ZZChainOfResponsibilityPattern.h"
+#import "ZZManger.h"
+#import "ZZMangerLow.h"
+#import "ZZMangerMid.h"
+#import "ZZMangerHigh.h"
 
 @implementation ZZChainOfResponsibilityPattern
 

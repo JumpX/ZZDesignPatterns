@@ -7,6 +7,7 @@
 //
 
 #import "ZZIteratorPattern.h"
+#import "ZZIterator.h"
 
 @implementation ZZIteratorPattern
 

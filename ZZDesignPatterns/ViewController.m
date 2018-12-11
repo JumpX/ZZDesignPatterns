@@ -10,6 +10,7 @@
 #import "ZZBuilderPattern.h"
 #import "ZZSingletonPattern.h"
 #import "ZZAdapterPattern.h"
+#import "ZZFacadePatterm.h"
 #import "ZZChainOfResponsibilityPattern.h"
 #import "ZZIteratorPattern.h"
 #import "ZZStatePattern.h"
@@ -25,6 +26,8 @@
 //    [ZZSingletonPattern showZZSingletonPattern];
     // 6.适配器模式
 //    [ZZAdapterPattern showZZAdapterPattern];
+    // 10.外观模式
+//    [ZZFacadePatterm showZZFacadePatterm];
     // 13.责任链模式
 //    [ZZChainOfResponsibilityPattern showZZChainOfResponsibilityPattern];
     // 16.迭代器模式
