@@ -59,6 +59,11 @@
 		5450922E21BFE44000A3701B /* ZZPrototypePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450922D21BFE44000A3701B /* ZZPrototypePattern.m */; };
 		5450923121BFE8E000A3701B /* ZZPrototypeWorkHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450923021BFE8E000A3701B /* ZZPrototypeWorkHistory.m */; };
 		5450923421BFE90400A3701B /* ZZPrototypeResume.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450923321BFE90400A3701B /* ZZPrototypeResume.m */; };
+		5450923C21BFF83700A3701B /* ZZProxyPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450923B21BFF83700A3701B /* ZZProxyPattern.m */; };
+		5450924C21BFF95500A3701B /* ZZProxyLovelyGirl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450924B21BFF95500A3701B /* ZZProxyLovelyGirl.m */; };
+		5450925221BFFA1100A3701B /* ZZProxyPursuing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450925121BFFA1100A3701B /* ZZProxyPursuing.m */; };
+		5450925521BFFA4F00A3701B /* ZZProxyPursuingBoy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450925421BFFA4F00A3701B /* ZZProxyPursuingBoy.m */; };
+		5450925B21BFFBB400A3701B /* ZZProxyPursuingProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450925A21BFFBB400A3701B /* ZZProxyPursuingProxy.m */; };
 		54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035B721BAAC670043B974 /* ZZSingletonA.m */; };
 		54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035BA21BAAD220043B974 /* ZZSingletonB.m */; };
 		54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035C021BAC98B0043B974 /* ZZSingletonC.m */; };
@@ -169,6 +174,16 @@
 		5450923021BFE8E000A3701B /* ZZPrototypeWorkHistory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPrototypeWorkHistory.m; sourceTree = "<group>"; };
 		5450923221BFE90400A3701B /* ZZPrototypeResume.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPrototypeResume.h; sourceTree = "<group>"; };
 		5450923321BFE90400A3701B /* ZZPrototypeResume.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPrototypeResume.m; sourceTree = "<group>"; };
+		5450923A21BFF83700A3701B /* ZZProxyPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZProxyPattern.h; sourceTree = "<group>"; };
+		5450923B21BFF83700A3701B /* ZZProxyPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZProxyPattern.m; sourceTree = "<group>"; };
+		5450924A21BFF95500A3701B /* ZZProxyLovelyGirl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZProxyLovelyGirl.h; sourceTree = "<group>"; };
+		5450924B21BFF95500A3701B /* ZZProxyLovelyGirl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZProxyLovelyGirl.m; sourceTree = "<group>"; };
+		5450925021BFFA1100A3701B /* ZZProxyPursuing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZProxyPursuing.h; sourceTree = "<group>"; };
+		5450925121BFFA1100A3701B /* ZZProxyPursuing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZProxyPursuing.m; sourceTree = "<group>"; };
+		5450925321BFFA4F00A3701B /* ZZProxyPursuingBoy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZProxyPursuingBoy.h; sourceTree = "<group>"; };
+		5450925421BFFA4F00A3701B /* ZZProxyPursuingBoy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZProxyPursuingBoy.m; sourceTree = "<group>"; };
+		5450925921BFFBB400A3701B /* ZZProxyPursuingProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZProxyPursuingProxy.h; sourceTree = "<group>"; };
+		5450925A21BFFBB400A3701B /* ZZProxyPursuingProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZProxyPursuingProxy.m; sourceTree = "<group>"; };
 		54B035B621BAAC670043B974 /* ZZSingletonA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonA.h; sourceTree = "<group>"; };
 		54B035B721BAAC670043B974 /* ZZSingletonA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonA.m; sourceTree = "<group>"; };
 		54B035B921BAAD220043B974 /* ZZSingletonB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonB.h; sourceTree = "<group>"; };
@@ -217,6 +232,7 @@
 				54B035B521BAAC360043B974 /* 单例模式 */,
 				545091A621BE7AA700A3701B /* 适配器模式 */,
 				545091F921BFCAAD00A3701B /* 外观模式 */,
+				5450923921BFF81400A3701B /* 代理模式 */,
 				5443DA9421BA9F1C008C8B9E /* 责任链模式 */,
 				5450919121BE0FA800A3701B /* 迭代器模式 */,
 				545091C521BE96E300A3701B /* 状态模式 */,
@@ -443,6 +459,31 @@
 			path = Prototype;
 			sourceTree = "<group>";
 		};
+		5450923921BFF81400A3701B /* 代理模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5450923D21BFF83A00A3701B /* Proxy */,
+				5450923A21BFF83700A3701B /* ZZProxyPattern.h */,
+				5450923B21BFF83700A3701B /* ZZProxyPattern.m */,
+			);
+			path = "代理模式";
+			sourceTree = "<group>";
+		};
+		5450923D21BFF83A00A3701B /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				5450924A21BFF95500A3701B /* ZZProxyLovelyGirl.h */,
+				5450924B21BFF95500A3701B /* ZZProxyLovelyGirl.m */,
+				5450925021BFFA1100A3701B /* ZZProxyPursuing.h */,
+				5450925121BFFA1100A3701B /* ZZProxyPursuing.m */,
+				5450925321BFFA4F00A3701B /* ZZProxyPursuingBoy.h */,
+				5450925421BFFA4F00A3701B /* ZZProxyPursuingBoy.m */,
+				5450925921BFFBB400A3701B /* ZZProxyPursuingProxy.h */,
+				5450925A21BFFBB400A3701B /* ZZProxyPursuingProxy.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
 		54B035B521BAAC360043B974 /* 单例模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -567,6 +608,7 @@
 				545091F821BFB41000A3701B /* ZZBuilderDirector.m in Sources */,
 				5443DA9A21BA9FF3008C8B9E /* ZZRequest.m in Sources */,
 				545091D521BE977C00A3701B /* ZZStateNoon.m in Sources */,
+				5450923C21BFF83700A3701B /* ZZProxyPattern.m in Sources */,
 				545091D821BE979700A3701B /* ZZStateAfternoon.m in Sources */,
 				545091A421BE635500A3701B /* ZZIteratorQueue.m in Sources */,
 				54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */,
@@ -582,14 +624,17 @@
 				5450922621BFDCA900A3701B /* ZZTemplateMethodAnswerA.m in Sources */,
 				5450919B21BE165B00A3701B /* ZZIterator.m in Sources */,
 				5450923121BFE8E000A3701B /* ZZPrototypeWorkHistory.m in Sources */,
+				5450924C21BFF95500A3701B /* ZZProxyLovelyGirl.m in Sources */,
 				5443DA8321BA9F02008C8B9E /* ViewController.m in Sources */,
 				54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */,
 				545091C821BE970800A3701B /* ZZStatePattern.m in Sources */,
 				5450920621BFCBA500A3701B /* ZZFacadeSpring.m in Sources */,
 				545091A121BE1DDF00A3701B /* ZZIteratorPattern.m in Sources */,
+				5450925B21BFFBB400A3701B /* ZZProxyPursuingProxy.m in Sources */,
 				5443DAAF21BAA6E4008C8B9E /* ZZMangerMid.m in Sources */,
 				5443DA8E21BA9F03008C8B9E /* main.m in Sources */,
 				5450921621BFDBF400A3701B /* ZZTemplateMethodPattern.m in Sources */,
+				5450925521BFFA4F00A3701B /* ZZProxyPursuingBoy.m in Sources */,
 				5450920F21BFCBE600A3701B /* ZZFacadeWinter.m in Sources */,
 				545091FC21BFCACF00A3701B /* ZZFacadePatterm.m in Sources */,
 				5450919E21BE17B500A3701B /* ZZMutableArray.m in Sources */,
@@ -600,6 +645,7 @@
 				5443DA8021BA9F02008C8B9E /* AppDelegate.m in Sources */,
 				545091CC21BE973500A3701B /* ZZStateWork.m in Sources */,
 				545091F521BFB3F000A3701B /* ZZBuilderWindowsBuilder.m in Sources */,
+				5450925221BFFA1100A3701B /* ZZProxyPursuing.m in Sources */,
 				545091EC21BFB38100A3701B /* ZZBuilderProduct.m in Sources */,
 				5450920921BFCBB300A3701B /* ZZFacadeSummer.m in Sources */,
 				545091E121BE980E00A3701B /* ZZStateSleeping.m in Sources */,
