@@ -45,21 +45,36 @@
 // iteratorObjectsUsingBlock
 + (void)showIteratorObjectsUsingBlock
 {
-    NSArray *array = @[@"show", @"Iterator", @"Objects", @"UsingBlock", @"Method"];
+    NSArray *array = @[@"show", @"Iterator", @"Objects", @"UsingBlock", @"Method", @"show", @"Iterator", @"Objects", @"UsingBlock", @"Method", @"show", @"Iterator", @"Objects", @"UsingBlock", @"Method", @"show", @"Iterator", @"Objects", @"UsingBlock", @"Method"];
+    
     ZZMutableArray *list = [ZZMutableArray new];
     [list addObjectsFromArray:array];
     ZZIterator *iterator = [ZZIterator iteratorWithArray:list];
     [iterator iteratorObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        if (idx == 3) *stop = YES;
+        if (idx == 13) *stop = YES;
         NSLog(@"list:%@ %zd %d", obj, idx, *stop);
     }];
+
+//    NSLog(@"compare >>>>");
     
-    NSLog(@"compare >>>>");
-    
-    [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-        if (idx == 3) *stop = YES;
-        NSLog(@"array:%@ %zd %d", obj, idx, *stop);
-    }];
+//    [iterator iteratorObjectsWithOptions:ZZIteratorOptionsReverse UsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+//        if (idx == 13) *stop = YES;
+//        NSLog(@"list:%@ %zd %d", obj, idx, *stop);
+//    }];
+
+//    NSLog(@"compare >>>>");
+//
+//    [array enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+//        if (idx == 3) *stop = YES;
+//        NSLog(@"array:%@ %zd %d", obj, idx, *stop);
+//    }];
+//
+//    NSLog(@"compare >>>>");
+//
+//    [array enumerateObjectsWithOptions:NSEnumerationConcurrent usingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+//        if (idx == 13) *stop = YES;
+//        NSLog(@"array:%@ %zd %d", obj, idx, *stop);
+//    }];
 }
 
 // ZZMutableArray线程安全

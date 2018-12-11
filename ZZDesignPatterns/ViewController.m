@@ -26,7 +26,7 @@
     // 单例模式
 //    [ZZSingletonPattern showZZSingletonPattern];
     // 迭代器模式
-//    [ZZIteratorPattern showZZIteratorPattern];
+    [ZZIteratorPattern showZZIteratorPattern];
     // 适配器模式
 //    [ZZAdapterPattern showZZAdapterPattern];
     // 状态模式

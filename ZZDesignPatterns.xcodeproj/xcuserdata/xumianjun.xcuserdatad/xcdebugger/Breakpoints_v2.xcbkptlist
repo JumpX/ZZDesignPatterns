@@ -20,12 +20,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ZZDesignPatterns/&#x8fed;&#x4ee3;&#x5668;&#x6a21;&#x5f0f;/Iterator/ZZIterator.m"
-            timestampString = "566141827.269115"
+            timestampString = "566197414.046138"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "-iteratorObjectsUsingBlock:"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "-iteratorObjectsWithOptions:UsingBlock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZZDesignPatterns/&#x8fed;&#x4ee3;&#x5668;&#x6a21;&#x5f0f;/Iterator/ZZIterator.m"
+            timestampString = "566197414.046473"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "-nextObject"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZZDesignPatterns/&#x8fed;&#x4ee3;&#x5668;&#x6a21;&#x5f0f;/Iterator/ZZIterator.m"
+            timestampString = "566197414.04669"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "-iteratorObjectsWithOptions:UsingBlock:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

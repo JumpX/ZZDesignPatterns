@@ -107,6 +107,16 @@
     return ret;
 }
 
+- (id)firstObject
+{
+    return [self objectAtIndex:0];
+}
+
+- (id)lastObject
+{
+    return [self objectAtIndex:CFArrayGetCount(self->_array)-1];
+}
+
 - (NSUInteger)indexOfObject:(id)anObject
 {
     if (!anObject) return NSNotFound;
