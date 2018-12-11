@@ -1,5 +1,5 @@
 # ZZDesignPatterns
--
+
 
 + **23种设计模式中英文**
 
@@ -28,6 +28,26 @@
 |21.|策略模式|Strategy Pattern|
 |22.|模板方法模式|Template Method Pattern|
 |23.|访问者模式|Visitor Pattern|
+
+### 3.建造者模式
+
++ 建造者模式，可将复杂的建造过程抽象出3部分：
+	- 要建造的产品（Product）
+	- 多个不同的建造者（Builder1，Builder2，...继承：Builder）
+	- 指挥如何建造的指挥者（Director）
++ 产品（Product），有两个功能：
+	- 添加配件
+	- 展示产品
++ 建造者（BuilderX）：
+	- 添加配件A
+	- 添加配件B
+	- 添加配件C
+	- 生成产品
++ 指挥者（Director）：
+	- 指定建造者
+	- 指定添加哪些配件
+	- 拿到建造者生成的产品
+	- 展示产品
 
 ### 5.单例模式
 

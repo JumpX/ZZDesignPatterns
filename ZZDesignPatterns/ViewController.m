@@ -7,31 +7,31 @@
 //
 
 #import "ViewController.h"
-#import "ZZChainOfResponsibilityPattern.h"
+#import "ZZBuilderPattern.h"
 #import "ZZSingletonPattern.h"
-#import "ZZIteratorPattern.h"
 #import "ZZAdapterPattern.h"
+#import "ZZChainOfResponsibilityPattern.h"
+#import "ZZIteratorPattern.h"
 #import "ZZStatePattern.h"
-
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // 责任链模式
-//    [ZZChainOfResponsibilityPattern showZZChainOfResponsibilityPattern];
-    // 单例模式
+    
+    // 3.建造者模式
+//    [ZZBuilderPattern showZZBuilderPattern];
+    // 5.单例模式
 //    [ZZSingletonPattern showZZSingletonPattern];
-    // 迭代器模式
-    [ZZIteratorPattern showZZIteratorPattern];
-    // 适配器模式
+    // 6.适配器模式
 //    [ZZAdapterPattern showZZAdapterPattern];
-    // 状态模式
+    // 13.责任链模式
+//    [ZZChainOfResponsibilityPattern showZZChainOfResponsibilityPattern];
+    // 16.迭代器模式
+//    [ZZIteratorPattern showZZIteratorPattern];
+    // 20.状态模式
 //    [ZZStatePattern showZZStatePattern];
+    
 }
-
 
 @end

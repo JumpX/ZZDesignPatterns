@@ -39,6 +39,12 @@
 		545091DB21BE97A600A3701B /* ZZStateEvening.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091DA21BE97A600A3701B /* ZZStateEvening.m */; };
 		545091DE21BE97FC00A3701B /* ZZStateOffwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091DD21BE97FC00A3701B /* ZZStateOffwork.m */; };
 		545091E121BE980E00A3701B /* ZZStateSleeping.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091E021BE980E00A3701B /* ZZStateSleeping.m */; };
+		545091E821BFB34F00A3701B /* ZZBuilderPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091E721BFB34F00A3701B /* ZZBuilderPattern.m */; };
+		545091EC21BFB38100A3701B /* ZZBuilderProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091EB21BFB38100A3701B /* ZZBuilderProduct.m */; };
+		545091EF21BFB3AE00A3701B /* ZZBuilderBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091EE21BFB3AE00A3701B /* ZZBuilderBuilder.m */; };
+		545091F221BFB3DF00A3701B /* ZZBuilderMacBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091F121BFB3DF00A3701B /* ZZBuilderMacBuilder.m */; };
+		545091F521BFB3F000A3701B /* ZZBuilderWindowsBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091F421BFB3F000A3701B /* ZZBuilderWindowsBuilder.m */; };
+		545091F821BFB41000A3701B /* ZZBuilderDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 545091F721BFB41000A3701B /* ZZBuilderDirector.m */; };
 		54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035B721BAAC670043B974 /* ZZSingletonA.m */; };
 		54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035BA21BAAD220043B974 /* ZZSingletonB.m */; };
 		54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035C021BAC98B0043B974 /* ZZSingletonC.m */; };
@@ -109,6 +115,18 @@
 		545091DD21BE97FC00A3701B /* ZZStateOffwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZStateOffwork.m; sourceTree = "<group>"; };
 		545091DF21BE980E00A3701B /* ZZStateSleeping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZStateSleeping.h; sourceTree = "<group>"; };
 		545091E021BE980E00A3701B /* ZZStateSleeping.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZStateSleeping.m; sourceTree = "<group>"; };
+		545091E621BFB34F00A3701B /* ZZBuilderPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBuilderPattern.h; sourceTree = "<group>"; };
+		545091E721BFB34F00A3701B /* ZZBuilderPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBuilderPattern.m; sourceTree = "<group>"; };
+		545091EA21BFB38100A3701B /* ZZBuilderProduct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBuilderProduct.h; sourceTree = "<group>"; };
+		545091EB21BFB38100A3701B /* ZZBuilderProduct.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBuilderProduct.m; sourceTree = "<group>"; };
+		545091ED21BFB3AE00A3701B /* ZZBuilderBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBuilderBuilder.h; sourceTree = "<group>"; };
+		545091EE21BFB3AE00A3701B /* ZZBuilderBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBuilderBuilder.m; sourceTree = "<group>"; };
+		545091F021BFB3DF00A3701B /* ZZBuilderMacBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBuilderMacBuilder.h; sourceTree = "<group>"; };
+		545091F121BFB3DF00A3701B /* ZZBuilderMacBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBuilderMacBuilder.m; sourceTree = "<group>"; };
+		545091F321BFB3F000A3701B /* ZZBuilderWindowsBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBuilderWindowsBuilder.h; sourceTree = "<group>"; };
+		545091F421BFB3F000A3701B /* ZZBuilderWindowsBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBuilderWindowsBuilder.m; sourceTree = "<group>"; };
+		545091F621BFB41000A3701B /* ZZBuilderDirector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBuilderDirector.h; sourceTree = "<group>"; };
+		545091F721BFB41000A3701B /* ZZBuilderDirector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBuilderDirector.m; sourceTree = "<group>"; };
 		54B035B621BAAC670043B974 /* ZZSingletonA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonA.h; sourceTree = "<group>"; };
 		54B035B721BAAC670043B974 /* ZZSingletonA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonA.m; sourceTree = "<group>"; };
 		54B035B921BAAD220043B974 /* ZZSingletonB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonB.h; sourceTree = "<group>"; };
@@ -152,6 +170,7 @@
 		5443DA7D21BA9F02008C8B9E /* ZZDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				545091E521BFB31E00A3701B /* 建造者模式 */,
 				545091C521BE96E300A3701B /* 状态模式 */,
 				545091A621BE7AA700A3701B /* 适配器模式 */,
 				5450919121BE0FA800A3701B /* 迭代器模式 */,
@@ -279,6 +298,33 @@
 			path = State;
 			sourceTree = "<group>";
 		};
+		545091E521BFB31E00A3701B /* 建造者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				545091E921BFB35F00A3701B /* Builder */,
+				545091E621BFB34F00A3701B /* ZZBuilderPattern.h */,
+				545091E721BFB34F00A3701B /* ZZBuilderPattern.m */,
+			);
+			path = "建造者模式";
+			sourceTree = "<group>";
+		};
+		545091E921BFB35F00A3701B /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				545091EA21BFB38100A3701B /* ZZBuilderProduct.h */,
+				545091EB21BFB38100A3701B /* ZZBuilderProduct.m */,
+				545091ED21BFB3AE00A3701B /* ZZBuilderBuilder.h */,
+				545091EE21BFB3AE00A3701B /* ZZBuilderBuilder.m */,
+				545091F021BFB3DF00A3701B /* ZZBuilderMacBuilder.h */,
+				545091F121BFB3DF00A3701B /* ZZBuilderMacBuilder.m */,
+				545091F321BFB3F000A3701B /* ZZBuilderWindowsBuilder.h */,
+				545091F421BFB3F000A3701B /* ZZBuilderWindowsBuilder.m */,
+				545091F621BFB41000A3701B /* ZZBuilderDirector.h */,
+				545091F721BFB41000A3701B /* ZZBuilderDirector.m */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
 		54B035B521BAAC360043B974 /* 单例模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -394,10 +440,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				545091E821BFB34F00A3701B /* ZZBuilderPattern.m in Sources */,
 				545091B221BE7F0400A3701B /* ZZAdapterPlayer.m in Sources */,
 				545091AA21BE7B1E00A3701B /* ZZAdapterPattern.m in Sources */,
 				54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */,
 				5443DAAC21BAA621008C8B9E /* ZZMangerLow.m in Sources */,
+				545091F821BFB41000A3701B /* ZZBuilderDirector.m in Sources */,
 				5443DA9A21BA9FF3008C8B9E /* ZZRequest.m in Sources */,
 				545091D521BE977C00A3701B /* ZZStateNoon.m in Sources */,
 				545091D821BE979700A3701B /* ZZStateAfternoon.m in Sources */,
@@ -417,13 +465,17 @@
 				5443DAAF21BAA6E4008C8B9E /* ZZMangerMid.m in Sources */,
 				5443DA8E21BA9F03008C8B9E /* main.m in Sources */,
 				5450919E21BE17B500A3701B /* ZZMutableArray.m in Sources */,
+				545091EF21BFB3AE00A3701B /* ZZBuilderBuilder.m in Sources */,
 				545091C421BE813F00A3701B /* ZZAdapterPlayerNBA.m in Sources */,
 				5450919521BE159400A3701B /* ZZChainOfResponsibilityPattern.m in Sources */,
 				54B035CF21BAD8A90043B974 /* ZZSingletonE1.m in Sources */,
 				5443DA8021BA9F02008C8B9E /* AppDelegate.m in Sources */,
 				545091CC21BE973500A3701B /* ZZStateWork.m in Sources */,
+				545091F521BFB3F000A3701B /* ZZBuilderWindowsBuilder.m in Sources */,
+				545091EC21BFB38100A3701B /* ZZBuilderProduct.m in Sources */,
 				545091E121BE980E00A3701B /* ZZStateSleeping.m in Sources */,
 				5443DA9721BA9FC4008C8B9E /* ZZManger.m in Sources */,
+				545091F221BFB3DF00A3701B /* ZZBuilderMacBuilder.m in Sources */,
 				545091D221BE976F00A3701B /* ZZStateMorning.m in Sources */,
 				54B035C421BAC9B30043B974 /* ZZSingletonD.m in Sources */,
 				5443DAB221BAA71B008C8B9E /* ZZMangerHigh.m in Sources */,
