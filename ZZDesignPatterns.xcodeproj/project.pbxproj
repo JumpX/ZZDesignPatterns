@@ -51,6 +51,11 @@
 		5450920C21BFCBCD00A3701B /* ZZFacadeAutumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450920B21BFCBCD00A3701B /* ZZFacadeAutumn.m */; };
 		5450920F21BFCBE600A3701B /* ZZFacadeWinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450920E21BFCBE600A3701B /* ZZFacadeWinter.m */; };
 		5450921221BFCD3A00A3701B /* ZZFacadeWeather.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450921121BFCD3A00A3701B /* ZZFacadeWeather.m */; };
+		5450921621BFDBF400A3701B /* ZZTemplateMethodPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450921521BFDBF400A3701B /* ZZTemplateMethodPattern.m */; };
+		5450921D21BFDC6200A3701B /* ZZTemplateMethodQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450921C21BFDC6200A3701B /* ZZTemplateMethodQuestion.m */; };
+		5450922321BFDC9300A3701B /* ZZTemplateMethodAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450922221BFDC9300A3701B /* ZZTemplateMethodAnswer.m */; };
+		5450922621BFDCA900A3701B /* ZZTemplateMethodAnswerA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450922521BFDCA900A3701B /* ZZTemplateMethodAnswerA.m */; };
+		5450922921BFDCB300A3701B /* ZZTemplateMethodAnswerB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450922821BFDCB300A3701B /* ZZTemplateMethodAnswerB.m */; };
 		54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035B721BAAC670043B974 /* ZZSingletonA.m */; };
 		54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035BA21BAAD220043B974 /* ZZSingletonB.m */; };
 		54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035C021BAC98B0043B974 /* ZZSingletonC.m */; };
@@ -145,6 +150,16 @@
 		5450920E21BFCBE600A3701B /* ZZFacadeWinter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFacadeWinter.m; sourceTree = "<group>"; };
 		5450921021BFCD3A00A3701B /* ZZFacadeWeather.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFacadeWeather.h; sourceTree = "<group>"; };
 		5450921121BFCD3A00A3701B /* ZZFacadeWeather.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFacadeWeather.m; sourceTree = "<group>"; };
+		5450921421BFDBF400A3701B /* ZZTemplateMethodPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZTemplateMethodPattern.h; sourceTree = "<group>"; };
+		5450921521BFDBF400A3701B /* ZZTemplateMethodPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTemplateMethodPattern.m; sourceTree = "<group>"; };
+		5450921B21BFDC6200A3701B /* ZZTemplateMethodQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZTemplateMethodQuestion.h; sourceTree = "<group>"; };
+		5450921C21BFDC6200A3701B /* ZZTemplateMethodQuestion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTemplateMethodQuestion.m; sourceTree = "<group>"; };
+		5450922121BFDC9300A3701B /* ZZTemplateMethodAnswer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZTemplateMethodAnswer.h; sourceTree = "<group>"; };
+		5450922221BFDC9300A3701B /* ZZTemplateMethodAnswer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTemplateMethodAnswer.m; sourceTree = "<group>"; };
+		5450922421BFDCA900A3701B /* ZZTemplateMethodAnswerA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZTemplateMethodAnswerA.h; sourceTree = "<group>"; };
+		5450922521BFDCA900A3701B /* ZZTemplateMethodAnswerA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTemplateMethodAnswerA.m; sourceTree = "<group>"; };
+		5450922721BFDCB300A3701B /* ZZTemplateMethodAnswerB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZTemplateMethodAnswerB.h; sourceTree = "<group>"; };
+		5450922821BFDCB300A3701B /* ZZTemplateMethodAnswerB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTemplateMethodAnswerB.m; sourceTree = "<group>"; };
 		54B035B621BAAC670043B974 /* ZZSingletonA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonA.h; sourceTree = "<group>"; };
 		54B035B721BAAC670043B974 /* ZZSingletonA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonA.m; sourceTree = "<group>"; };
 		54B035B921BAAD220043B974 /* ZZSingletonB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonB.h; sourceTree = "<group>"; };
@@ -195,6 +210,7 @@
 				5443DA9421BA9F1C008C8B9E /* 责任链模式 */,
 				5450919121BE0FA800A3701B /* 迭代器模式 */,
 				545091C521BE96E300A3701B /* 状态模式 */,
+				5450921321BFDBBB00A3701B /* 模板方法模式 */,
 				5443DA7E21BA9F02008C8B9E /* AppDelegate.h */,
 				5443DA7F21BA9F02008C8B9E /* AppDelegate.m */,
 				5443DA8121BA9F02008C8B9E /* ViewController.h */,
@@ -371,6 +387,31 @@
 			path = Facade;
 			sourceTree = "<group>";
 		};
+		5450921321BFDBBB00A3701B /* 模板方法模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5450921721BFDBF700A3701B /* TemplateMethod */,
+				5450921421BFDBF400A3701B /* ZZTemplateMethodPattern.h */,
+				5450921521BFDBF400A3701B /* ZZTemplateMethodPattern.m */,
+			);
+			path = "模板方法模式";
+			sourceTree = "<group>";
+		};
+		5450921721BFDBF700A3701B /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				5450921B21BFDC6200A3701B /* ZZTemplateMethodQuestion.h */,
+				5450921C21BFDC6200A3701B /* ZZTemplateMethodQuestion.m */,
+				5450922121BFDC9300A3701B /* ZZTemplateMethodAnswer.h */,
+				5450922221BFDC9300A3701B /* ZZTemplateMethodAnswer.m */,
+				5450922421BFDCA900A3701B /* ZZTemplateMethodAnswerA.h */,
+				5450922521BFDCA900A3701B /* ZZTemplateMethodAnswerA.m */,
+				5450922721BFDCB300A3701B /* ZZTemplateMethodAnswerB.h */,
+				5450922821BFDCB300A3701B /* ZZTemplateMethodAnswerB.m */,
+			);
+			path = TemplateMethod;
+			sourceTree = "<group>";
+		};
 		54B035B521BAAC360043B974 /* 单例模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -498,13 +539,16 @@
 				545091D821BE979700A3701B /* ZZStateAfternoon.m in Sources */,
 				545091A421BE635500A3701B /* ZZIteratorQueue.m in Sources */,
 				54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */,
+				5450922921BFDCB300A3701B /* ZZTemplateMethodAnswerB.m in Sources */,
 				545091C121BE812200A3701B /* ZZAdapterPlayerAdapter.m in Sources */,
 				5450919821BE15F900A3701B /* ZZSingletonPattern.m in Sources */,
+				5450921D21BFDC6200A3701B /* ZZTemplateMethodQuestion.m in Sources */,
 				545091AE21BE7C6400A3701B /* ZZAdapterSimpleSample.m in Sources */,
 				545091DB21BE97A600A3701B /* ZZStateEvening.m in Sources */,
 				545091BE21BE80FD00A3701B /* ZZAdapterPlayerCBA.m in Sources */,
 				5450921221BFCD3A00A3701B /* ZZFacadeWeather.m in Sources */,
 				545091CF21BE974B00A3701B /* ZZStateStatus.m in Sources */,
+				5450922621BFDCA900A3701B /* ZZTemplateMethodAnswerA.m in Sources */,
 				5450919B21BE165B00A3701B /* ZZIterator.m in Sources */,
 				5443DA8321BA9F02008C8B9E /* ViewController.m in Sources */,
 				54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */,
@@ -513,6 +557,7 @@
 				545091A121BE1DDF00A3701B /* ZZIteratorPattern.m in Sources */,
 				5443DAAF21BAA6E4008C8B9E /* ZZMangerMid.m in Sources */,
 				5443DA8E21BA9F03008C8B9E /* main.m in Sources */,
+				5450921621BFDBF400A3701B /* ZZTemplateMethodPattern.m in Sources */,
 				5450920F21BFCBE600A3701B /* ZZFacadeWinter.m in Sources */,
 				545091FC21BFCACF00A3701B /* ZZFacadePatterm.m in Sources */,
 				5450919E21BE17B500A3701B /* ZZMutableArray.m in Sources */,
@@ -532,6 +577,7 @@
 				54B035C421BAC9B30043B974 /* ZZSingletonD.m in Sources */,
 				5443DAB221BAA71B008C8B9E /* ZZMangerHigh.m in Sources */,
 				545091DE21BE97FC00A3701B /* ZZStateOffwork.m in Sources */,
+				5450922321BFDC9300A3701B /* ZZTemplateMethodAnswer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,7 @@
 #import "ZZChainOfResponsibilityPattern.h"
 #import "ZZIteratorPattern.h"
 #import "ZZStatePattern.h"
+#import "ZZTemplateMethodPattern.h"
 
 @implementation ViewController
 
@@ -34,7 +35,8 @@
 //    [ZZIteratorPattern showZZIteratorPattern];
     // 20.状态模式
 //    [ZZStatePattern showZZStatePattern];
-    
+    // 22.模板方法模式
+//    [ZZTemplateMethodPattern showZZTemplateMethodPattern];
 }
 
 @end

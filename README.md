@@ -1,7 +1,7 @@
 # ZZDesignPatterns
 
 
-+ **23种设计模式中英文**
+## 23种设计模式中英文
 
 | Number | 模式 | Pattern |
 |:------:|:---:|:-------:|
@@ -49,7 +49,7 @@
 	- 拿到建造者生成的产品
 	- 展示产品
 
-### 5.单例模式
+### 5.单例模式（Singleton Pattern）
 
 + 实现方式主要分2种：
 
@@ -160,7 +160,7 @@ ZZSingletonIMP(ZZSingletonE1)
 @end
 ```
 
-### 6.适配器模式
+### 6.适配器模式（Adapter Pattern）
 
 适配器是当两个类具有相同作用和方法，但因为历史原因，方法名不一致，此时需要用适配器将特殊类的方法用普通类去实现。
 
@@ -171,7 +171,7 @@ ZZSingletonIMP(ZZSingletonE1)
 - ZZAdapterSimpleSample
 - ZZAdapterPlayer
 
-### 10.外观模式
+### 10.外观模式（Facade Pattern）
 
 首先，在设计初期，应有意识的进行分层，比如经典的三层架构：数据访问层、业务逻辑层、表示层。层与层之间可以建立外观Facade，提供简单的接口的供层与层之间访问，降低耦合。
 
@@ -179,7 +179,7 @@ ZZSingletonIMP(ZZSingletonE1)
 
 第三，维护遗留大型项目，非常难维护，删不敢删，重构又没足够时间和魄力，此时可以使用外观模式，即再增加一个Facade类，将遗留代码封装成一个简单接口，让遗留代码与Facade对象交互，Facade与新的需求代码交互。
 
-### 13.责任链模式
+### 13.责任链模式（Chain of Responsibility Pattern）
 
 例如：员工请假过程如下
 
@@ -193,7 +193,7 @@ ZZSingletonIMP(ZZSingletonE1)
 **本质上是条件分支（if..else..）逻辑处理。**
 
 
-### 16.迭代器模式
+### 16.迭代器模式（Iterator Pattern）
 
 像NSArray的`enumerateObjectsUsingBlock`，`for-in`等都是迭代器模式，因为太经典，几乎所有语言开发平台都会封装好。
 
@@ -246,3 +246,8 @@ typedef NS_OPTIONS(NSUInteger, ZZIteratorOptions)
 	- `- (void)dosomework:(Status)status`
 	- 各自维护该方法及状态转化
 
+### 22.模板方法模式（Template Method Pattern）
+
+模板方法模式，其实就是抽象出一个模板类，定义并实现一个模板方法，且该方法是具体的具有顶级逻辑的骨架，而其中涉及的一些变量和方法，是需要推迟到子类中去实现，从而使得顶级逻辑的实现各不相同。
+
+简单可以理解为，模板方法模式，是通过把不变行为搬到父类，去除子类中的重复代码，从而体现其优势。
