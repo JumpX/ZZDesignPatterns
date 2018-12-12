@@ -10,4 +10,19 @@
 
 @implementation ZZProxyPursuing
 
+- (void)giveGirlFlower
+{
+    
+}
+
+- (void)askGirlToCinema
+{
+    
+}
+
+- (void)inviteGirlToDinner
+{
+    
+}
+
 @end
