@@ -325,6 +325,11 @@ ZZSingletonIMP(ZZSingletonE1)
 
 **本质上是条件分支（if..else..）逻辑处理。**
 
+### 15.解释器模式（Interpreter Pattern）
+
+解释器模式：给定一个语言，定义它的文法的一种表示，并定义一个解释器，这个解释器使用该表示来解释语言中的句子。
+
+比如正则表达式匹配字符串、IE浏览器解释HTML、Objective-C等编程语言，都可以看成是复杂的解释器模式。
 
 ### 16.迭代器模式（Iterator Pattern）
 

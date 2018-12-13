@@ -15,6 +15,7 @@
 #import "ZZFacadePatterm.h"
 #import "ZZProxyPattern.h"
 #import "ZZChainOfResponsibilityPattern.h"
+#import "ZZInterpreterPattern.h"
 #import "ZZIteratorPattern.h"
 #import "ZZStatePattern.h"
 #import "ZZTemplateMethodPattern.h"
@@ -41,6 +42,8 @@
 //    [ZZProxyPattern showZZProxyPattern];
     // 13.责任链模式
 //    [ZZChainOfResponsibilityPattern showZZChainOfResponsibilityPattern];
+    // 15.解释器模式
+//    [ZZInterpreterPattern showZZInterpreterPattern];
     // 16.迭代器模式
 //    [ZZIteratorPattern showZZIteratorPattern];
     // 20.状态模式
