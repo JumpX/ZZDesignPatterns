@@ -385,6 +385,26 @@ typedef NS_OPTIONS(NSUInteger, ZZIteratorOptions)
 
 简单可以理解为：**模板方法模式，是通过把不变行为搬到父类，去除子类中的重复代码，从而体现其优势。**
 
+### 23.访问者模式（Visitor Pattern）
+
+访问者模式：表示一个作用于某对象结构中的各元素的操作。它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作。
+
+优点是适用于数据结构比较稳定，增加新的操作（新的访问者）就会很容易。
+缺点是数据结构改变或增加新的数据结构就会变得困难。
+
+例如：显示人（只有男人、女人，数据结构稳定，想要增加太监、人妖等就比较困难）的状态（比如成功、失败，恋爱等等，增加新的状态会很容易）。
+
+```
+// 人的状态
+[man acceptVisitor:success];
+[man acceptVisitor:fail];
+[man acceptVisitor:love];
+...// 男人增加状态（访问者）
+[woman acceptVisitor:success];
+[woman acceptVisitor:fail];
+[woman acceptVisitor:love];
+...// 女人增加状态（访问者）
+```
 
 ## 附录 参考文献
 

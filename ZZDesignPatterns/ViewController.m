@@ -18,6 +18,7 @@
 #import "ZZIteratorPattern.h"
 #import "ZZStatePattern.h"
 #import "ZZTemplateMethodPattern.h"
+#import "ZZVisitorPattern.h"
 
 @implementation ViewController
 
@@ -46,6 +47,8 @@
 //    [ZZStatePattern showZZStatePattern];
     // 22.模板方法模式
 //    [ZZTemplateMethodPattern showZZTemplateMethodPattern];
+    // 23.访问者模式
+//    [ZZVisitorPattern showZZVisitorPattern];
 }
 
 @end

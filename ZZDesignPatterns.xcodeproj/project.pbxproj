@@ -70,6 +70,14 @@
 		5450926A21C0EE2400A3701B /* ZZDecoratorTShirt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450926921C0EE2400A3701B /* ZZDecoratorTShirt.m */; };
 		5450926D21C0EE4A00A3701B /* ZZDecoratorHat.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450926C21C0EE4A00A3701B /* ZZDecoratorHat.m */; };
 		5450927021C0EE6C00A3701B /* ZZDecoratorShoes.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450926F21C0EE6C00A3701B /* ZZDecoratorShoes.m */; };
+		5450927421C22EE500A3701B /* ZZVisitorPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450927321C22EE500A3701B /* ZZVisitorPattern.m */; };
+		5450927821C2314500A3701B /* ZZVisitorPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450927721C2314500A3701B /* ZZVisitorPerson.m */; };
+		5450927B21C231AF00A3701B /* ZZVisitorMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450927A21C231AF00A3701B /* ZZVisitorMan.m */; };
+		5450927E21C231BF00A3701B /* ZZVisitorWoman.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450927D21C231BF00A3701B /* ZZVisitorWoman.m */; };
+		5450928121C231D300A3701B /* ZZVisitorAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450928021C231D300A3701B /* ZZVisitorAction.m */; };
+		5450928421C231FB00A3701B /* ZZVisitorActionSuccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450928321C231FB00A3701B /* ZZVisitorActionSuccess.m */; };
+		5450928721C2320800A3701B /* ZZVisitorActionFail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450928621C2320800A3701B /* ZZVisitorActionFail.m */; };
+		5450928D21C239F100A3701B /* ZZVisitorActionLove.m in Sources */ = {isa = PBXBuildFile; fileRef = 5450928C21C239F100A3701B /* ZZVisitorActionLove.m */; };
 		54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035B721BAAC670043B974 /* ZZSingletonA.m */; };
 		54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035BA21BAAD220043B974 /* ZZSingletonB.m */; };
 		54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035C021BAC98B0043B974 /* ZZSingletonC.m */; };
@@ -202,6 +210,22 @@
 		5450926C21C0EE4A00A3701B /* ZZDecoratorHat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZDecoratorHat.m; sourceTree = "<group>"; };
 		5450926E21C0EE6C00A3701B /* ZZDecoratorShoes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZDecoratorShoes.h; sourceTree = "<group>"; };
 		5450926F21C0EE6C00A3701B /* ZZDecoratorShoes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZDecoratorShoes.m; sourceTree = "<group>"; };
+		5450927221C22EE500A3701B /* ZZVisitorPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZVisitorPattern.h; sourceTree = "<group>"; };
+		5450927321C22EE500A3701B /* ZZVisitorPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZVisitorPattern.m; sourceTree = "<group>"; };
+		5450927621C2314500A3701B /* ZZVisitorPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZVisitorPerson.h; sourceTree = "<group>"; };
+		5450927721C2314500A3701B /* ZZVisitorPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZVisitorPerson.m; sourceTree = "<group>"; };
+		5450927921C231AF00A3701B /* ZZVisitorMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZVisitorMan.h; sourceTree = "<group>"; };
+		5450927A21C231AF00A3701B /* ZZVisitorMan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZVisitorMan.m; sourceTree = "<group>"; };
+		5450927C21C231BF00A3701B /* ZZVisitorWoman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZVisitorWoman.h; sourceTree = "<group>"; };
+		5450927D21C231BF00A3701B /* ZZVisitorWoman.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZVisitorWoman.m; sourceTree = "<group>"; };
+		5450927F21C231D300A3701B /* ZZVisitorAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZVisitorAction.h; sourceTree = "<group>"; };
+		5450928021C231D300A3701B /* ZZVisitorAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZVisitorAction.m; sourceTree = "<group>"; };
+		5450928221C231FB00A3701B /* ZZVisitorActionSuccess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZVisitorActionSuccess.h; sourceTree = "<group>"; };
+		5450928321C231FB00A3701B /* ZZVisitorActionSuccess.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZVisitorActionSuccess.m; sourceTree = "<group>"; };
+		5450928521C2320800A3701B /* ZZVisitorActionFail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZVisitorActionFail.h; sourceTree = "<group>"; };
+		5450928621C2320800A3701B /* ZZVisitorActionFail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZVisitorActionFail.m; sourceTree = "<group>"; };
+		5450928B21C239F100A3701B /* ZZVisitorActionLove.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZVisitorActionLove.h; sourceTree = "<group>"; };
+		5450928C21C239F100A3701B /* ZZVisitorActionLove.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZVisitorActionLove.m; sourceTree = "<group>"; };
 		54B035B621BAAC670043B974 /* ZZSingletonA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonA.h; sourceTree = "<group>"; };
 		54B035B721BAAC670043B974 /* ZZSingletonA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonA.m; sourceTree = "<group>"; };
 		54B035B921BAAD220043B974 /* ZZSingletonB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonB.h; sourceTree = "<group>"; };
@@ -245,6 +269,7 @@
 		5443DA7D21BA9F02008C8B9E /* ZZDesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				5450927121C22EB300A3701B /* 访问者模式 */,
 				545091E521BFB31E00A3701B /* 建造者模式 */,
 				5450922A21BFE3F300A3701B /* 原型模式 */,
 				54B035B521BAAC360043B974 /* 单例模式 */,
@@ -530,6 +555,37 @@
 			path = Decorator;
 			sourceTree = "<group>";
 		};
+		5450927121C22EB300A3701B /* 访问者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				5450927521C22EEB00A3701B /* Visitor */,
+				5450927221C22EE500A3701B /* ZZVisitorPattern.h */,
+				5450927321C22EE500A3701B /* ZZVisitorPattern.m */,
+			);
+			path = "访问者模式";
+			sourceTree = "<group>";
+		};
+		5450927521C22EEB00A3701B /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				5450927621C2314500A3701B /* ZZVisitorPerson.h */,
+				5450927721C2314500A3701B /* ZZVisitorPerson.m */,
+				5450927921C231AF00A3701B /* ZZVisitorMan.h */,
+				5450927A21C231AF00A3701B /* ZZVisitorMan.m */,
+				5450927C21C231BF00A3701B /* ZZVisitorWoman.h */,
+				5450927D21C231BF00A3701B /* ZZVisitorWoman.m */,
+				5450927F21C231D300A3701B /* ZZVisitorAction.h */,
+				5450928021C231D300A3701B /* ZZVisitorAction.m */,
+				5450928221C231FB00A3701B /* ZZVisitorActionSuccess.h */,
+				5450928321C231FB00A3701B /* ZZVisitorActionSuccess.m */,
+				5450928521C2320800A3701B /* ZZVisitorActionFail.h */,
+				5450928621C2320800A3701B /* ZZVisitorActionFail.m */,
+				5450928B21C239F100A3701B /* ZZVisitorActionLove.h */,
+				5450928C21C239F100A3701B /* ZZVisitorActionLove.m */,
+			);
+			path = Visitor;
+			sourceTree = "<group>";
+		};
 		54B035B521BAAC360043B974 /* 单例模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -663,6 +719,7 @@
 				545091C121BE812200A3701B /* ZZAdapterPlayerAdapter.m in Sources */,
 				5450919821BE15F900A3701B /* ZZSingletonPattern.m in Sources */,
 				5450921D21BFDC6200A3701B /* ZZTemplateMethodQuestion.m in Sources */,
+				5450927E21C231BF00A3701B /* ZZVisitorWoman.m in Sources */,
 				545091AE21BE7C6400A3701B /* ZZAdapterSimpleSample.m in Sources */,
 				545091DB21BE97A600A3701B /* ZZStateEvening.m in Sources */,
 				545091BE21BE80FD00A3701B /* ZZAdapterPlayerCBA.m in Sources */,
@@ -678,10 +735,13 @@
 				545091C821BE970800A3701B /* ZZStatePattern.m in Sources */,
 				5450926D21C0EE4A00A3701B /* ZZDecoratorHat.m in Sources */,
 				5450920621BFCBA500A3701B /* ZZFacadeSpring.m in Sources */,
+				5450927B21C231AF00A3701B /* ZZVisitorMan.m in Sources */,
 				545091A121BE1DDF00A3701B /* ZZIteratorPattern.m in Sources */,
 				5450925B21BFFBB400A3701B /* ZZProxyPursuingProxy.m in Sources */,
 				5443DAAF21BAA6E4008C8B9E /* ZZMangerMid.m in Sources */,
 				5450927021C0EE6C00A3701B /* ZZDecoratorShoes.m in Sources */,
+				5450928D21C239F100A3701B /* ZZVisitorActionLove.m in Sources */,
+				5450928421C231FB00A3701B /* ZZVisitorActionSuccess.m in Sources */,
 				5443DA8E21BA9F03008C8B9E /* main.m in Sources */,
 				5450921621BFDBF400A3701B /* ZZTemplateMethodPattern.m in Sources */,
 				5450926421C0EDB800A3701B /* ZZDecoratorPerson.m in Sources */,
@@ -691,6 +751,7 @@
 				5450919E21BE17B500A3701B /* ZZMutableArray.m in Sources */,
 				545091EF21BFB3AE00A3701B /* ZZBuilderBuilder.m in Sources */,
 				5450926021C0ED8E00A3701B /* ZZDecoratorPattern.m in Sources */,
+				5450928121C231D300A3701B /* ZZVisitorAction.m in Sources */,
 				545091C421BE813F00A3701B /* ZZAdapterPlayerNBA.m in Sources */,
 				5450919521BE159400A3701B /* ZZChainOfResponsibilityPattern.m in Sources */,
 				54B035CF21BAD8A90043B974 /* ZZSingletonE1.m in Sources */,
@@ -700,7 +761,10 @@
 				5450925221BFFA1100A3701B /* ZZProxyPursuing.m in Sources */,
 				545091EC21BFB38100A3701B /* ZZBuilderProduct.m in Sources */,
 				5450920921BFCBB300A3701B /* ZZFacadeSummer.m in Sources */,
+				5450927421C22EE500A3701B /* ZZVisitorPattern.m in Sources */,
+				5450927821C2314500A3701B /* ZZVisitorPerson.m in Sources */,
 				545091E121BE980E00A3701B /* ZZStateSleeping.m in Sources */,
+				5450928721C2320800A3701B /* ZZVisitorActionFail.m in Sources */,
 				5443DA9721BA9FC4008C8B9E /* ZZManger.m in Sources */,
 				545091F221BFB3DF00A3701B /* ZZBuilderMacBuilder.m in Sources */,
 				545091D221BE976F00A3701B /* ZZStateMorning.m in Sources */,
