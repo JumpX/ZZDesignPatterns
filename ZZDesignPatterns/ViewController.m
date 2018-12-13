@@ -17,6 +17,7 @@
 #import "ZZChainOfResponsibilityPattern.h"
 #import "ZZInterpreterPattern.h"
 #import "ZZIteratorPattern.h"
+#import "ZZMediatorPattern.h"
 #import "ZZStatePattern.h"
 #import "ZZTemplateMethodPattern.h"
 #import "ZZVisitorPattern.h"
@@ -46,6 +47,8 @@
 //    [ZZInterpreterPattern showZZInterpreterPattern];
     // 16.迭代器模式
 //    [ZZIteratorPattern showZZIteratorPattern];
+    // 17.中介者模式
+//    [ZZMediatorPattern showZZMediatorPattern];
     // 20.状态模式
 //    [ZZStatePattern showZZStatePattern];
     // 22.模板方法模式
