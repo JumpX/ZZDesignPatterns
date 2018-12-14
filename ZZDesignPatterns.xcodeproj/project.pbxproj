@@ -89,6 +89,13 @@
 		545092AC21C264E200A3701B /* ZZMediatorChina.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092AB21C264E200A3701B /* ZZMediatorChina.m */; };
 		545092AF21C2650900A3701B /* ZZMediatorAmerica.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092AE21C2650900A3701B /* ZZMediatorAmerica.m */; };
 		545092B221C2654700A3701B /* ZZMediatorUNSecurityCouncil.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092B121C2654700A3701B /* ZZMediatorUNSecurityCouncil.m */; };
+		545092B721C34CF100A3701B /* ZZBridgePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092B621C34CF100A3701B /* ZZBridgePattern.m */; };
+		545092BB21C34D7300A3701B /* ZZBridgePhoneBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092BA21C34D7300A3701B /* ZZBridgePhoneBrand.m */; };
+		545092BE21C34D8F00A3701B /* ZZBridgePhoneSoft.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092BD21C34D8F00A3701B /* ZZBridgePhoneSoft.m */; };
+		545092C421C34DDE00A3701B /* ZZBridgeIPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092C321C34DDE00A3701B /* ZZBridgeIPhone.m */; };
+		545092C721C34DEE00A3701B /* ZZBridgeHuawei.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092C621C34DEE00A3701B /* ZZBridgeHuawei.m */; };
+		545092CD21C34E6000A3701B /* ZZBridgeSoftTetris.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092CC21C34E6000A3701B /* ZZBridgeSoftTetris.m */; };
+		545092D021C34E8C00A3701B /* ZZBridgeSoftEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092CF21C34E8C00A3701B /* ZZBridgeSoftEmail.m */; };
 		54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035B721BAAC670043B974 /* ZZSingletonA.m */; };
 		54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035BA21BAAD220043B974 /* ZZSingletonB.m */; };
 		54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035C021BAC98B0043B974 /* ZZSingletonC.m */; };
@@ -259,6 +266,20 @@
 		545092AE21C2650900A3701B /* ZZMediatorAmerica.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMediatorAmerica.m; sourceTree = "<group>"; };
 		545092B021C2654700A3701B /* ZZMediatorUNSecurityCouncil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZMediatorUNSecurityCouncil.h; sourceTree = "<group>"; };
 		545092B121C2654700A3701B /* ZZMediatorUNSecurityCouncil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMediatorUNSecurityCouncil.m; sourceTree = "<group>"; };
+		545092B521C34CF100A3701B /* ZZBridgePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBridgePattern.h; sourceTree = "<group>"; };
+		545092B621C34CF100A3701B /* ZZBridgePattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBridgePattern.m; sourceTree = "<group>"; };
+		545092B921C34D7300A3701B /* ZZBridgePhoneBrand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBridgePhoneBrand.h; sourceTree = "<group>"; };
+		545092BA21C34D7300A3701B /* ZZBridgePhoneBrand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBridgePhoneBrand.m; sourceTree = "<group>"; };
+		545092BC21C34D8F00A3701B /* ZZBridgePhoneSoft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBridgePhoneSoft.h; sourceTree = "<group>"; };
+		545092BD21C34D8F00A3701B /* ZZBridgePhoneSoft.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBridgePhoneSoft.m; sourceTree = "<group>"; };
+		545092C221C34DDE00A3701B /* ZZBridgeIPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBridgeIPhone.h; sourceTree = "<group>"; };
+		545092C321C34DDE00A3701B /* ZZBridgeIPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBridgeIPhone.m; sourceTree = "<group>"; };
+		545092C521C34DEE00A3701B /* ZZBridgeHuawei.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBridgeHuawei.h; sourceTree = "<group>"; };
+		545092C621C34DEE00A3701B /* ZZBridgeHuawei.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBridgeHuawei.m; sourceTree = "<group>"; };
+		545092CB21C34E6000A3701B /* ZZBridgeSoftTetris.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBridgeSoftTetris.h; sourceTree = "<group>"; };
+		545092CC21C34E6000A3701B /* ZZBridgeSoftTetris.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBridgeSoftTetris.m; sourceTree = "<group>"; };
+		545092CE21C34E8C00A3701B /* ZZBridgeSoftEmail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBridgeSoftEmail.h; sourceTree = "<group>"; };
+		545092CF21C34E8C00A3701B /* ZZBridgeSoftEmail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBridgeSoftEmail.m; sourceTree = "<group>"; };
 		54B035B621BAAC670043B974 /* ZZSingletonA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonA.h; sourceTree = "<group>"; };
 		54B035B721BAAC670043B974 /* ZZSingletonA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonA.m; sourceTree = "<group>"; };
 		54B035B921BAAD220043B974 /* ZZSingletonB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonB.h; sourceTree = "<group>"; };
@@ -306,6 +327,7 @@
 				5450922A21BFE3F300A3701B /* 原型模式 */,
 				54B035B521BAAC360043B974 /* 单例模式 */,
 				545091A621BE7AA700A3701B /* 适配器模式 */,
+				545092B421C3492200A3701B /* 桥接模式 */,
 				5450925D21C0ED5600A3701B /* 装饰模式 */,
 				545091F921BFCAAD00A3701B /* 外观模式 */,
 				5450923921BFF81400A3701B /* 代理模式 */,
@@ -673,6 +695,35 @@
 			path = Mediator;
 			sourceTree = "<group>";
 		};
+		545092B421C3492200A3701B /* 桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+				545092B821C34D2C00A3701B /* Bridge */,
+				545092B521C34CF100A3701B /* ZZBridgePattern.h */,
+				545092B621C34CF100A3701B /* ZZBridgePattern.m */,
+			);
+			path = "桥接模式";
+			sourceTree = "<group>";
+		};
+		545092B821C34D2C00A3701B /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				545092B921C34D7300A3701B /* ZZBridgePhoneBrand.h */,
+				545092BA21C34D7300A3701B /* ZZBridgePhoneBrand.m */,
+				545092C221C34DDE00A3701B /* ZZBridgeIPhone.h */,
+				545092C321C34DDE00A3701B /* ZZBridgeIPhone.m */,
+				545092C521C34DEE00A3701B /* ZZBridgeHuawei.h */,
+				545092C621C34DEE00A3701B /* ZZBridgeHuawei.m */,
+				545092BC21C34D8F00A3701B /* ZZBridgePhoneSoft.h */,
+				545092BD21C34D8F00A3701B /* ZZBridgePhoneSoft.m */,
+				545092CB21C34E6000A3701B /* ZZBridgeSoftTetris.h */,
+				545092CC21C34E6000A3701B /* ZZBridgeSoftTetris.m */,
+				545092CE21C34E8C00A3701B /* ZZBridgeSoftEmail.h */,
+				545092CF21C34E8C00A3701B /* ZZBridgeSoftEmail.m */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
 		54B035B521BAAC360043B974 /* 单例模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -790,6 +841,7 @@
 			files = (
 				5450926721C0EDE700A3701B /* ZZDecoratorFinery.m in Sources */,
 				545091E821BFB34F00A3701B /* ZZBuilderPattern.m in Sources */,
+				545092C421C34DDE00A3701B /* ZZBridgeIPhone.m in Sources */,
 				5450920C21BFCBCD00A3701B /* ZZFacadeAutumn.m in Sources */,
 				545091B221BE7F0400A3701B /* ZZAdapterPlayer.m in Sources */,
 				545091AA21BE7B1E00A3701B /* ZZAdapterPattern.m in Sources */,
@@ -801,6 +853,7 @@
 				5450923C21BFF83700A3701B /* ZZProxyPattern.m in Sources */,
 				545091D821BE979700A3701B /* ZZStateAfternoon.m in Sources */,
 				545091A421BE635500A3701B /* ZZIteratorQueue.m in Sources */,
+				545092B721C34CF100A3701B /* ZZBridgePattern.m in Sources */,
 				54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */,
 				5450922921BFDCB300A3701B /* ZZTemplateMethodAnswerB.m in Sources */,
 				545091C121BE812200A3701B /* ZZAdapterPlayerAdapter.m in Sources */,
@@ -833,6 +886,8 @@
 				5443DAAF21BAA6E4008C8B9E /* ZZMangerMid.m in Sources */,
 				5450927021C0EE6C00A3701B /* ZZDecoratorShoes.m in Sources */,
 				5450928D21C239F100A3701B /* ZZVisitorActionLove.m in Sources */,
+				545092D021C34E8C00A3701B /* ZZBridgeSoftEmail.m in Sources */,
+				545092BE21C34D8F00A3701B /* ZZBridgePhoneSoft.m in Sources */,
 				5450928421C231FB00A3701B /* ZZVisitorActionSuccess.m in Sources */,
 				5443DA8E21BA9F03008C8B9E /* main.m in Sources */,
 				5450921621BFDBF400A3701B /* ZZTemplateMethodPattern.m in Sources */,
@@ -844,6 +899,7 @@
 				545091FC21BFCACF00A3701B /* ZZFacadePatterm.m in Sources */,
 				5450919E21BE17B500A3701B /* ZZMutableArray.m in Sources */,
 				5450929B21C2427700A3701B /* ZZInterpreterExpressionLowercase.m in Sources */,
+				545092CD21C34E6000A3701B /* ZZBridgeSoftTetris.m in Sources */,
 				545091EF21BFB3AE00A3701B /* ZZBuilderBuilder.m in Sources */,
 				5450926021C0ED8E00A3701B /* ZZDecoratorPattern.m in Sources */,
 				5450928121C231D300A3701B /* ZZVisitorAction.m in Sources */,
@@ -852,6 +908,7 @@
 				54B035CF21BAD8A90043B974 /* ZZSingletonE1.m in Sources */,
 				545092A921C264CC00A3701B /* ZZMediatorCountry.m in Sources */,
 				5443DA8021BA9F02008C8B9E /* AppDelegate.m in Sources */,
+				545092BB21C34D7300A3701B /* ZZBridgePhoneBrand.m in Sources */,
 				545091CC21BE973500A3701B /* ZZStateWork.m in Sources */,
 				545091F521BFB3F000A3701B /* ZZBuilderWindowsBuilder.m in Sources */,
 				5450925221BFFA1100A3701B /* ZZProxyPursuing.m in Sources */,
@@ -863,6 +920,7 @@
 				5450928721C2320800A3701B /* ZZVisitorActionFail.m in Sources */,
 				545092A621C264B900A3701B /* ZZMediatorUN.m in Sources */,
 				5443DA9721BA9FC4008C8B9E /* ZZManger.m in Sources */,
+				545092C721C34DEE00A3701B /* ZZBridgeHuawei.m in Sources */,
 				545091F221BFB3DF00A3701B /* ZZBuilderMacBuilder.m in Sources */,
 				545091D221BE976F00A3701B /* ZZStateMorning.m in Sources */,
 				54B035C421BAC9B30043B974 /* ZZSingletonD.m in Sources */,
