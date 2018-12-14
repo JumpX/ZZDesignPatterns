@@ -96,6 +96,9 @@
 		545092C721C34DEE00A3701B /* ZZBridgeHuawei.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092C621C34DEE00A3701B /* ZZBridgeHuawei.m */; };
 		545092CD21C34E6000A3701B /* ZZBridgeSoftTetris.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092CC21C34E6000A3701B /* ZZBridgeSoftTetris.m */; };
 		545092D021C34E8C00A3701B /* ZZBridgeSoftEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092CF21C34E8C00A3701B /* ZZBridgeSoftEmail.m */; };
+		545092D421C3692100A3701B /* ZZCompositePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092D321C3692100A3701B /* ZZCompositePattern.m */; };
+		545092D821C3890800A3701B /* ZZCompositeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092D721C3890800A3701B /* ZZCompositeNode.m */; };
+		545092DB21C3892100A3701B /* ZZCompositeLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092DA21C3892100A3701B /* ZZCompositeLeaf.m */; };
 		54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035B721BAAC670043B974 /* ZZSingletonA.m */; };
 		54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035BA21BAAD220043B974 /* ZZSingletonB.m */; };
 		54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035C021BAC98B0043B974 /* ZZSingletonC.m */; };
@@ -280,6 +283,12 @@
 		545092CC21C34E6000A3701B /* ZZBridgeSoftTetris.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBridgeSoftTetris.m; sourceTree = "<group>"; };
 		545092CE21C34E8C00A3701B /* ZZBridgeSoftEmail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZBridgeSoftEmail.h; sourceTree = "<group>"; };
 		545092CF21C34E8C00A3701B /* ZZBridgeSoftEmail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZBridgeSoftEmail.m; sourceTree = "<group>"; };
+		545092D221C3692100A3701B /* ZZCompositePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCompositePattern.h; sourceTree = "<group>"; };
+		545092D321C3692100A3701B /* ZZCompositePattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCompositePattern.m; sourceTree = "<group>"; };
+		545092D621C3890800A3701B /* ZZCompositeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCompositeNode.h; sourceTree = "<group>"; };
+		545092D721C3890800A3701B /* ZZCompositeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCompositeNode.m; sourceTree = "<group>"; };
+		545092D921C3892100A3701B /* ZZCompositeLeaf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCompositeLeaf.h; sourceTree = "<group>"; };
+		545092DA21C3892100A3701B /* ZZCompositeLeaf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCompositeLeaf.m; sourceTree = "<group>"; };
 		54B035B621BAAC670043B974 /* ZZSingletonA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonA.h; sourceTree = "<group>"; };
 		54B035B721BAAC670043B974 /* ZZSingletonA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonA.m; sourceTree = "<group>"; };
 		54B035B921BAAD220043B974 /* ZZSingletonB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonB.h; sourceTree = "<group>"; };
@@ -328,6 +337,7 @@
 				54B035B521BAAC360043B974 /* 单例模式 */,
 				545091A621BE7AA700A3701B /* 适配器模式 */,
 				545092B421C3492200A3701B /* 桥接模式 */,
+				545092D121C3690000A3701B /* 组合模式 */,
 				5450925D21C0ED5600A3701B /* 装饰模式 */,
 				545091F921BFCAAD00A3701B /* 外观模式 */,
 				5450923921BFF81400A3701B /* 代理模式 */,
@@ -724,6 +734,27 @@
 			path = Bridge;
 			sourceTree = "<group>";
 		};
+		545092D121C3690000A3701B /* 组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				545092D521C3692500A3701B /* Composite */,
+				545092D221C3692100A3701B /* ZZCompositePattern.h */,
+				545092D321C3692100A3701B /* ZZCompositePattern.m */,
+			);
+			path = "组合模式";
+			sourceTree = "<group>";
+		};
+		545092D521C3692500A3701B /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				545092D621C3890800A3701B /* ZZCompositeNode.h */,
+				545092D721C3890800A3701B /* ZZCompositeNode.m */,
+				545092D921C3892100A3701B /* ZZCompositeLeaf.h */,
+				545092DA21C3892100A3701B /* ZZCompositeLeaf.m */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
 		54B035B521BAAC360043B974 /* 单例模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -878,6 +909,7 @@
 				5450926A21C0EE2400A3701B /* ZZDecoratorTShirt.m in Sources */,
 				545092AF21C2650900A3701B /* ZZMediatorAmerica.m in Sources */,
 				545091C821BE970800A3701B /* ZZStatePattern.m in Sources */,
+				545092DB21C3892100A3701B /* ZZCompositeLeaf.m in Sources */,
 				5450926D21C0EE4A00A3701B /* ZZDecoratorHat.m in Sources */,
 				5450920621BFCBA500A3701B /* ZZFacadeSpring.m in Sources */,
 				5450927B21C231AF00A3701B /* ZZVisitorMan.m in Sources */,
@@ -891,6 +923,8 @@
 				5450928421C231FB00A3701B /* ZZVisitorActionSuccess.m in Sources */,
 				5443DA8E21BA9F03008C8B9E /* main.m in Sources */,
 				5450921621BFDBF400A3701B /* ZZTemplateMethodPattern.m in Sources */,
+				545092D821C3890800A3701B /* ZZCompositeNode.m in Sources */,
+				545092D421C3692100A3701B /* ZZCompositePattern.m in Sources */,
 				5450926421C0EDB800A3701B /* ZZDecoratorPerson.m in Sources */,
 				5450929E21C2429C00A3701B /* ZZInterpreterContext.m in Sources */,
 				545092A221C2604000A3701B /* ZZMediatorPattern.m in Sources */,

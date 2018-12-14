@@ -12,6 +12,7 @@
 #import "ZZSingletonPattern.h"
 #import "ZZAdapterPattern.h"
 #import "ZZBridgePattern.h"
+#import "ZZCompositePattern.h"
 #import "ZZDecoratorPattern.h"
 #import "ZZFacadePatterm.h"
 #import "ZZProxyPattern.h"
@@ -38,6 +39,8 @@
 //    [ZZAdapterPattern showZZAdapterPattern];
     // 7.桥接模式
 //    [ZZBridgePattern showZZBridgePattern];
+    // 8.组合模式
+//    [ZZCompositePattern showZZCompositePattern];
     // 9.装饰模式
 //    [ZZDecoratorPattern showZZDecoratorPattern];
     // 10.外观模式
