@@ -408,13 +408,17 @@ typedef NS_OPTIONS(NSUInteger, ZZIteratorOptions)
 };
 ```
 
-### 中介者模式（Mediator Pattern）
+### 17.中介者模式（Mediator Pattern）
 
 中介者模式：用一个中介对象来封装一系列的对象交互。中介者使各对象不需要显示的相互引用，从而使其耦合松散，而且可以独立的改变它们之间的交互。
 
 其实中介者模式，只是把交互复杂性转成了中介者的复杂性。但优点是集中控制，缺点也是集中控制。
 
 中介者模式也很常用，比如Objective-C中的View，View中一般会含有多个文本、按钮或其他控件，每个控件都是通过View来交互。
+
+### 18.备忘录模式（Memento Pattern）
+
+备忘录模式：
 
 ### 20.状态模式（State Pattern）
 

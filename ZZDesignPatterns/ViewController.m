@@ -20,6 +20,7 @@
 #import "ZZInterpreterPattern.h"
 #import "ZZIteratorPattern.h"
 #import "ZZMediatorPattern.h"
+#import "ZZMementoPattern.h"
 #import "ZZStatePattern.h"
 #import "ZZTemplateMethodPattern.h"
 #import "ZZVisitorPattern.h"
@@ -55,6 +56,8 @@
 //    [ZZIteratorPattern showZZIteratorPattern];
     // 17.中介者模式
 //    [ZZMediatorPattern showZZMediatorPattern];
+    // 18.备忘录模式
+//    [ZZMementoPattern showZZMementoPattern];
     // 20.状态模式
 //    [ZZStatePattern showZZStatePattern];
     // 22.模板方法模式

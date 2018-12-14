@@ -99,6 +99,10 @@
 		545092D421C3692100A3701B /* ZZCompositePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092D321C3692100A3701B /* ZZCompositePattern.m */; };
 		545092D821C3890800A3701B /* ZZCompositeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092D721C3890800A3701B /* ZZCompositeNode.m */; };
 		545092DB21C3892100A3701B /* ZZCompositeLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092DA21C3892100A3701B /* ZZCompositeLeaf.m */; };
+		545092E221C3A39700A3701B /* ZZMementoPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092E121C3A39700A3701B /* ZZMementoPattern.m */; };
+		545092E621C3A3FD00A3701B /* ZZMementoRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092E521C3A3FD00A3701B /* ZZMementoRole.m */; };
+		545092E921C3A43000A3701B /* ZZMementoRoleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092E821C3A43000A3701B /* ZZMementoRoleMemento.m */; };
+		545092EC21C3A45400A3701B /* ZZMementoRoleCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092EB21C3A45400A3701B /* ZZMementoRoleCaretaker.m */; };
 		54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035B721BAAC670043B974 /* ZZSingletonA.m */; };
 		54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035BA21BAAD220043B974 /* ZZSingletonB.m */; };
 		54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035C021BAC98B0043B974 /* ZZSingletonC.m */; };
@@ -289,6 +293,14 @@
 		545092D721C3890800A3701B /* ZZCompositeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCompositeNode.m; sourceTree = "<group>"; };
 		545092D921C3892100A3701B /* ZZCompositeLeaf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCompositeLeaf.h; sourceTree = "<group>"; };
 		545092DA21C3892100A3701B /* ZZCompositeLeaf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCompositeLeaf.m; sourceTree = "<group>"; };
+		545092E021C3A39700A3701B /* ZZMementoPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZMementoPattern.h; sourceTree = "<group>"; };
+		545092E121C3A39700A3701B /* ZZMementoPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMementoPattern.m; sourceTree = "<group>"; };
+		545092E421C3A3FD00A3701B /* ZZMementoRole.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZMementoRole.h; sourceTree = "<group>"; };
+		545092E521C3A3FD00A3701B /* ZZMementoRole.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMementoRole.m; sourceTree = "<group>"; };
+		545092E721C3A43000A3701B /* ZZMementoRoleMemento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZMementoRoleMemento.h; sourceTree = "<group>"; };
+		545092E821C3A43000A3701B /* ZZMementoRoleMemento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMementoRoleMemento.m; sourceTree = "<group>"; };
+		545092EA21C3A45400A3701B /* ZZMementoRoleCaretaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZMementoRoleCaretaker.h; sourceTree = "<group>"; };
+		545092EB21C3A45400A3701B /* ZZMementoRoleCaretaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMementoRoleCaretaker.m; sourceTree = "<group>"; };
 		54B035B621BAAC670043B974 /* ZZSingletonA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonA.h; sourceTree = "<group>"; };
 		54B035B721BAAC670043B974 /* ZZSingletonA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonA.m; sourceTree = "<group>"; };
 		54B035B921BAAD220043B974 /* ZZSingletonB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonB.h; sourceTree = "<group>"; };
@@ -345,6 +357,7 @@
 				5450928E21C2413B00A3701B /* 解释器模式 */,
 				5450919121BE0FA800A3701B /* 迭代器模式 */,
 				5450929F21C2600100A3701B /* 中介者模式 */,
+				545092DF21C3A37700A3701B /* 备忘录模式 */,
 				545091C521BE96E300A3701B /* 状态模式 */,
 				5450921321BFDBBB00A3701B /* 模板方法模式 */,
 				5450927121C22EB300A3701B /* 访问者模式 */,
@@ -755,6 +768,29 @@
 			path = Composite;
 			sourceTree = "<group>";
 		};
+		545092DF21C3A37700A3701B /* 备忘录模式 */ = {
+			isa = PBXGroup;
+			children = (
+				545092E321C3A39B00A3701B /* Memento */,
+				545092E021C3A39700A3701B /* ZZMementoPattern.h */,
+				545092E121C3A39700A3701B /* ZZMementoPattern.m */,
+			);
+			path = "备忘录模式";
+			sourceTree = "<group>";
+		};
+		545092E321C3A39B00A3701B /* Memento */ = {
+			isa = PBXGroup;
+			children = (
+				545092E421C3A3FD00A3701B /* ZZMementoRole.h */,
+				545092E521C3A3FD00A3701B /* ZZMementoRole.m */,
+				545092E721C3A43000A3701B /* ZZMementoRoleMemento.h */,
+				545092E821C3A43000A3701B /* ZZMementoRoleMemento.m */,
+				545092EA21C3A45400A3701B /* ZZMementoRoleCaretaker.h */,
+				545092EB21C3A45400A3701B /* ZZMementoRoleCaretaker.m */,
+			);
+			path = Memento;
+			sourceTree = "<group>";
+		};
 		54B035B521BAAC360043B974 /* 单例模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -871,10 +907,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5450926721C0EDE700A3701B /* ZZDecoratorFinery.m in Sources */,
+				545092E921C3A43000A3701B /* ZZMementoRoleMemento.m in Sources */,
 				545091E821BFB34F00A3701B /* ZZBuilderPattern.m in Sources */,
 				545092C421C34DDE00A3701B /* ZZBridgeIPhone.m in Sources */,
 				5450920C21BFCBCD00A3701B /* ZZFacadeAutumn.m in Sources */,
 				545091B221BE7F0400A3701B /* ZZAdapterPlayer.m in Sources */,
+				545092E621C3A3FD00A3701B /* ZZMementoRole.m in Sources */,
 				545091AA21BE7B1E00A3701B /* ZZAdapterPattern.m in Sources */,
 				54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */,
 				5443DAAC21BAA621008C8B9E /* ZZMangerLow.m in Sources */,
@@ -896,6 +934,7 @@
 				545091AE21BE7C6400A3701B /* ZZAdapterSimpleSample.m in Sources */,
 				545091DB21BE97A600A3701B /* ZZStateEvening.m in Sources */,
 				5450929521C2421900A3701B /* ZZInterpreterExpression.m in Sources */,
+				545092E221C3A39700A3701B /* ZZMementoPattern.m in Sources */,
 				545091BE21BE80FD00A3701B /* ZZAdapterPlayerCBA.m in Sources */,
 				5450921221BFCD3A00A3701B /* ZZFacadeWeather.m in Sources */,
 				545091CF21BE974B00A3701B /* ZZStateStatus.m in Sources */,
@@ -923,6 +962,7 @@
 				5450928421C231FB00A3701B /* ZZVisitorActionSuccess.m in Sources */,
 				5443DA8E21BA9F03008C8B9E /* main.m in Sources */,
 				5450921621BFDBF400A3701B /* ZZTemplateMethodPattern.m in Sources */,
+				545092EC21C3A45400A3701B /* ZZMementoRoleCaretaker.m in Sources */,
 				545092D821C3890800A3701B /* ZZCompositeNode.m in Sources */,
 				545092D421C3692100A3701B /* ZZCompositePattern.m in Sources */,
 				5450926421C0EDB800A3701B /* ZZDecoratorPerson.m in Sources */,
