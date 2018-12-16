@@ -12,7 +12,7 @@
 
 @implementation ZZMementoPattern
 
-+ (void)showZZMementoPattern
++ (void)show
 {
     // 角色
     ZZMementoRole *role = [ZZMementoRole new];

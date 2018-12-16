@@ -10,6 +10,6 @@
 
 @interface ZZSingletonPattern : NSObject
 
-+ (void)showZZSingletonPattern;
++ (void)show;
 
 @end

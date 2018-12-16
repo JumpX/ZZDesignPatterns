@@ -13,7 +13,7 @@
 
 @implementation ZZInterpreterPattern
 
-+ (void)showZZInterpreterPattern
++ (void)show
 {
     ZZInterpreterContext *context = [ZZInterpreterContext new];
     context.text = @"AaCHLhjs;dkLJHNJLLabAmnpihedvVHABba";

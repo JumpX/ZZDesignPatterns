@@ -11,9 +11,12 @@
 
 @implementation ZZCompositePattern
 
-+ (void)showZZCompositePattern
++ (void)show
 {
+    // root
     ZZCompositeNode *composite = [ZZCompositeNode node:@"<<compositeRoot>>"];
+    
+    // nodes
     ZZCompositeNode *nodeA = [ZZCompositeNode node:@"<nodeA>"];
     ZZCompositeNode *nodeB = [ZZCompositeNode node:@"<nodeB>"];
     ZZCompositeNode *nodeC = [ZZCompositeNode node:@"<nodeC>"];
@@ -23,6 +26,7 @@
     ZZCompositeLeaf *leaf2 = [ZZCompositeLeaf node:@"Leaf2"];
     ZZCompositeLeaf *leaf3 = [ZZCompositeLeaf node:@"Leaf3"];
     
+    // add node
     [nodeA addNode:leaf2];
     [leaf2 addNode:nodeB];
     [composite addNode:leaf1];
@@ -32,14 +36,16 @@
     [nodeC addNode:nodeD];
     [nodeD addNode:nodeE];
     [nodeD addNode:leaf3];
+    
+    // display root
     [composite display:1];
     
-    NSLog(@"\n >>>> removeNode");
+    NSLog(@"\n >>>> root remove nodes and display:");
     [composite removeNode:leaf1];
     [nodeD removeNode:nodeC];
     [composite display:1];
     
-    NSLog(@"\n >>>> removeNode");
+    NSLog(@"\n >>>> nodeC display:");
     [nodeC display:1];
 }
 

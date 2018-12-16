@@ -103,6 +103,8 @@
 		545092E621C3A3FD00A3701B /* ZZMementoRole.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092E521C3A3FD00A3701B /* ZZMementoRole.m */; };
 		545092E921C3A43000A3701B /* ZZMementoRoleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092E821C3A43000A3701B /* ZZMementoRoleMemento.m */; };
 		545092EC21C3A45400A3701B /* ZZMementoRoleCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092EB21C3A45400A3701B /* ZZMementoRoleCaretaker.m */; };
+		545092F021C3C1A800A3701B /* ZZObserverPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 545092EF21C3C1A800A3701B /* ZZObserverPattern.m */; };
+		54907CD721C6056900ED88F9 /* ZZNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 54907CD621C6056900ED88F9 /* ZZNotification.m */; };
 		54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035B721BAAC670043B974 /* ZZSingletonA.m */; };
 		54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035BA21BAAD220043B974 /* ZZSingletonB.m */; };
 		54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B035C021BAC98B0043B974 /* ZZSingletonC.m */; };
@@ -301,6 +303,10 @@
 		545092E821C3A43000A3701B /* ZZMementoRoleMemento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMementoRoleMemento.m; sourceTree = "<group>"; };
 		545092EA21C3A45400A3701B /* ZZMementoRoleCaretaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZMementoRoleCaretaker.h; sourceTree = "<group>"; };
 		545092EB21C3A45400A3701B /* ZZMementoRoleCaretaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZMementoRoleCaretaker.m; sourceTree = "<group>"; };
+		545092EE21C3C1A800A3701B /* ZZObserverPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZObserverPattern.h; sourceTree = "<group>"; };
+		545092EF21C3C1A800A3701B /* ZZObserverPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZObserverPattern.m; sourceTree = "<group>"; };
+		54907CD521C6056900ED88F9 /* ZZNotification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZNotification.h; sourceTree = "<group>"; };
+		54907CD621C6056900ED88F9 /* ZZNotification.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZNotification.m; sourceTree = "<group>"; };
 		54B035B621BAAC670043B974 /* ZZSingletonA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonA.h; sourceTree = "<group>"; };
 		54B035B721BAAC670043B974 /* ZZSingletonA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSingletonA.m; sourceTree = "<group>"; };
 		54B035B921BAAD220043B974 /* ZZSingletonB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSingletonB.h; sourceTree = "<group>"; };
@@ -358,6 +364,7 @@
 				5450919121BE0FA800A3701B /* 迭代器模式 */,
 				5450929F21C2600100A3701B /* 中介者模式 */,
 				545092DF21C3A37700A3701B /* 备忘录模式 */,
+				545092ED21C3C19000A3701B /* 观察者模式 */,
 				545091C521BE96E300A3701B /* 状态模式 */,
 				5450921321BFDBBB00A3701B /* 模板方法模式 */,
 				5450927121C22EB300A3701B /* 访问者模式 */,
@@ -791,6 +798,25 @@
 			path = Memento;
 			sourceTree = "<group>";
 		};
+		545092ED21C3C19000A3701B /* 观察者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				545092F121C3C1AC00A3701B /* Observer */,
+				545092EE21C3C1A800A3701B /* ZZObserverPattern.h */,
+				545092EF21C3C1A800A3701B /* ZZObserverPattern.m */,
+			);
+			path = "观察者模式";
+			sourceTree = "<group>";
+		};
+		545092F121C3C1AC00A3701B /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				54907CD521C6056900ED88F9 /* ZZNotification.h */,
+				54907CD621C6056900ED88F9 /* ZZNotification.m */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
 		54B035B521BAAC360043B974 /* 单例模式 */ = {
 			isa = PBXGroup;
 			children = (
@@ -909,6 +935,7 @@
 				5450926721C0EDE700A3701B /* ZZDecoratorFinery.m in Sources */,
 				545092E921C3A43000A3701B /* ZZMementoRoleMemento.m in Sources */,
 				545091E821BFB34F00A3701B /* ZZBuilderPattern.m in Sources */,
+				545092F021C3C1A800A3701B /* ZZObserverPattern.m in Sources */,
 				545092C421C34DDE00A3701B /* ZZBridgeIPhone.m in Sources */,
 				5450920C21BFCBCD00A3701B /* ZZFacadeAutumn.m in Sources */,
 				545091B221BE7F0400A3701B /* ZZAdapterPlayer.m in Sources */,
@@ -971,6 +998,7 @@
 				5450925521BFFA4F00A3701B /* ZZProxyPursuingBoy.m in Sources */,
 				5450920F21BFCBE600A3701B /* ZZFacadeWinter.m in Sources */,
 				545091FC21BFCACF00A3701B /* ZZFacadePatterm.m in Sources */,
+				54907CD721C6056900ED88F9 /* ZZNotification.m in Sources */,
 				5450919E21BE17B500A3701B /* ZZMutableArray.m in Sources */,
 				5450929B21C2427700A3701B /* ZZInterpreterExpressionLowercase.m in Sources */,
 				545092CD21C34E6000A3701B /* ZZBridgeSoftTetris.m in Sources */,
@@ -1080,7 +1108,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1133,7 +1161,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

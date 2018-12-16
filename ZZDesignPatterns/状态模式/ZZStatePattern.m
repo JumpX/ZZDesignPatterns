@@ -11,7 +11,7 @@
 
 @implementation ZZStatePattern
 
-+ (void)showZZStatePattern
++ (void)show
 {
     ZZStateWork *work = [ZZStateWork new];
     [work dosomeWork]; // 默认9点

@@ -10,6 +10,6 @@
 
 @interface ZZFacadePatterm : NSObject
 
-+ (void)showZZFacadePatterm;
++ (void)show;
 
 @end

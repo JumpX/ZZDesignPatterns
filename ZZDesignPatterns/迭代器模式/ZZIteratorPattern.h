@@ -10,8 +10,6 @@
 
 @interface ZZIteratorPattern : NSObject
 
-+ (void)showZZIteratorPattern;
-
-+ (void)showDispatch_barrier_async;
++ (void)show;
 
 @end

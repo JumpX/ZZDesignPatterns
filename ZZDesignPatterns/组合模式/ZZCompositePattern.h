@@ -10,6 +10,6 @@
 
 @interface ZZCompositePattern : NSObject
 
-+ (void)showZZCompositePattern;
++ (void)show;
 
 @end

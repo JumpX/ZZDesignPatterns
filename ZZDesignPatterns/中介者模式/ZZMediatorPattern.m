@@ -11,7 +11,7 @@
 
 @implementation ZZMediatorPattern
 
-+ (void)showZZMediatorPattern
++ (void)show
 {
     ZZMediatorUNSecurityCouncil *mediator = [ZZMediatorUNSecurityCouncil new];
     ZZMediatorChina *China = [ZZMediatorChina new];

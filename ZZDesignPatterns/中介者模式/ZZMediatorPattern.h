@@ -10,6 +10,6 @@
 
 @interface ZZMediatorPattern : NSObject
 
-+ (void)showZZMediatorPattern;
++ (void)show;
 
 @end

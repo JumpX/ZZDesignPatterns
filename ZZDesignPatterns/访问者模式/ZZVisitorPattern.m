@@ -14,7 +14,7 @@
 
 @implementation ZZVisitorPattern
 
-+ (void)showZZVisitorPattern
++ (void)show
 {
     ZZVisitorMan *man = [ZZVisitorMan new];
     man.name = @"黄渤";

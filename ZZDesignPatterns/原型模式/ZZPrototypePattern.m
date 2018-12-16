@@ -11,7 +11,7 @@
 
 @implementation ZZPrototypePattern
 
-+ (void)showZZPrototypePattern
++ (void)show
 {
     ZZPrototypeResume *A = [ZZPrototypeResume new];
     [A setResumeName:@"A"];

@@ -11,7 +11,7 @@
 
 @implementation ZZFacadePatterm
 
-+ (void)showZZFacadePatterm
++ (void)show
 {
     ZZFacadeWeather *facade = [ZZFacadeWeather new];
     

@@ -14,7 +14,7 @@
 
 @implementation ZZBridgePattern
 
-+ (void)showZZBridgePattern
++ (void)show
 {
     ZZBridgeSoftTetris *tetris = [ZZBridgeSoftTetris new];
     ZZBridgeSoftEmail *email = [ZZBridgeSoftEmail new];

@@ -14,7 +14,7 @@
 
 @implementation ZZChainOfResponsibilityPattern
 
-+ (void)showZZChainOfResponsibilityPattern
++ (void)show
 {
     ZZMangerLow *low = [ZZMangerLow new];
     ZZMangerMid *mid = [ZZMangerMid new];

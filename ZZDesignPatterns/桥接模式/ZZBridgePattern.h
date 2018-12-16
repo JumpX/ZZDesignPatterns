@@ -10,6 +10,6 @@
 
 @interface ZZBridgePattern : NSObject
 
-+ (void)showZZBridgePattern;
++ (void)show;
 
 @end

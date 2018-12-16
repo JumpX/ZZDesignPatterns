@@ -10,6 +10,6 @@
 
 @interface ZZInterpreterPattern : NSObject
 
-+ (void)showZZInterpreterPattern;
++ (void)show;
 
 @end

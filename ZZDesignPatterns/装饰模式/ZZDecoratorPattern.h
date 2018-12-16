@@ -10,6 +10,6 @@
 
 @interface ZZDecoratorPattern : NSObject
 
-+ (void)showZZDecoratorPattern;
++ (void)show;
 
 @end

@@ -13,7 +13,7 @@
 
 @implementation ZZAdapterPattern
 
-+ (void)showZZAdapterPattern
++ (void)show
 {
     [self showSimpleSample];
     [self showPlayers];

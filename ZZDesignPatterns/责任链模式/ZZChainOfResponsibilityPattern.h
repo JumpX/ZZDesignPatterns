@@ -10,6 +10,6 @@
 
 @interface ZZChainOfResponsibilityPattern : NSObject
 
-+ (void)showZZChainOfResponsibilityPattern;
++ (void)show;
 
 @end

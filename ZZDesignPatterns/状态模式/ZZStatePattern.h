@@ -10,6 +10,6 @@
 
 @interface ZZStatePattern : NSObject
 
-+ (void)showZZStatePattern;
++ (void)show;
 
 @end

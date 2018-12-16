@@ -13,7 +13,7 @@
 
 @implementation ZZProxyPattern
 
-+ (void)showZZProxyPattern
++ (void)show
 {
     ZZProxyLovelyGirl *girl = [ZZProxyLovelyGirl new];
     girl.name = @"赵丽颖";

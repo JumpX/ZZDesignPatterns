@@ -13,11 +13,13 @@
 
 @implementation ZZDecoratorPattern
 
-+ (void)showZZDecoratorPattern
++ (void)show
 {
     // 正常顺序装饰 人名->帽子->T恤->鞋子
     [ZZDecoratorPattern normalDecorates];
+    
     NSLog(@"\n >>>> compare");
+    
     // 随意按需装饰 ?->?->?->?->...(大概这就是装饰模式的魅力吧)
     [ZZDecoratorPattern randomDecorates];
 }

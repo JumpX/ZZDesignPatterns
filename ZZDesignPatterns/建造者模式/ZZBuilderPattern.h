@@ -10,6 +10,6 @@
 
 @interface ZZBuilderPattern : NSObject
 
-+ (void)showZZBuilderPattern;
++ (void)show;
 
 @end

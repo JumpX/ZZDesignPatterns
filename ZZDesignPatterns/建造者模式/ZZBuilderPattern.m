@@ -13,7 +13,7 @@
 
 @implementation ZZBuilderPattern
 
-+ (void)showZZBuilderPattern
++ (void)show
 {
     ZZBuilderDirector *director = [ZZBuilderDirector new];
 

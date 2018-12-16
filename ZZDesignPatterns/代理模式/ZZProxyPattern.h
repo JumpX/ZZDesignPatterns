@@ -10,6 +10,6 @@
 
 @interface ZZProxyPattern : NSObject
 
-+ (void)showZZProxyPattern;
++ (void)show;
 
 @end

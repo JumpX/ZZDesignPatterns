@@ -15,7 +15,7 @@
 
 @implementation ZZSingletonPattern
 
-+ (void)showZZSingletonPattern
++ (void)show
 {
     [ZZSingletonPattern showA];
     [ZZSingletonPattern showB];

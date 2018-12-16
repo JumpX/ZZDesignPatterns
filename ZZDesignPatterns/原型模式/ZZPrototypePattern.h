@@ -10,6 +10,6 @@
 
 @interface ZZPrototypePattern : NSObject
 
-+ (void)showZZPrototypePattern;
++ (void)show;
 
 @end

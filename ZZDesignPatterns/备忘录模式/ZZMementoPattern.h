@@ -10,6 +10,6 @@
 
 @interface ZZMementoPattern : NSObject
 
-+ (void)showZZMementoPattern;
++ (void)show;
 
 @end

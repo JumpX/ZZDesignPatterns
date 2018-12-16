@@ -11,16 +11,17 @@
 
 @implementation ZZIteratorPattern
 
-+ (void)showZZIteratorPattern
++ (void)show
 {
-//    [ZZIteratorPattern showDispatch_barrier_async];
-//    [ZZIteratorPattern showZZMutableArrayThreadSafe];
-//    [ZZIteratorPattern showIteratorWithArray];
-    [ZZIteratorPattern showIteratorObjectsUsingBlock];
+    [ZZIteratorPattern showIteratorBlock];
+    
+//    [ZZIteratorPattern showIterator];
+//    [ZZIteratorPattern showBarrierAsync];
+//    [ZZIteratorPattern showArrayThreadSafe];
 }
 
-// iteratorWithArray
-+ (void)showIteratorWithArray
+// iterator
++ (void)showIterator
 {
     ZZMutableArray *list = [ZZMutableArray array];
     [list addObject:@"name"];
@@ -43,8 +44,8 @@
     }
 }
 
-// iteratorObjectsUsingBlock
-+ (void)showIteratorObjectsUsingBlock
+// iterator block
++ (void)showIteratorBlock
 {
     NSArray *array = @[@"show", @"Iterator", @"Objects", @"UsingBlock", @"Method", @"show", @"Iterator", @"Objects", @"UsingBlock", @"Method", @"show", @"Iterator", @"Objects", @"UsingBlock", @"Method", @"show", @"Iterator", @"Objects", @"UsingBlock", @"Method"];
     
@@ -79,7 +80,7 @@
 }
 
 // ZZMutableArray线程安全
-+ (void)showZZMutableArrayThreadSafe
++ (void)showArrayThreadSafe
 {
     ZZMutableArray *list = [ZZMutableArray array];
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
@@ -97,7 +98,7 @@
 }
 
 // dispatch_barrier_async
-+ (void)showDispatch_barrier_async
++ (void)showBarrierAsync
 {
     dispatch_queue_t queue = dispatch_queue_create("thread", DISPATCH_QUEUE_CONCURRENT);
     dispatch_async(queue, ^{

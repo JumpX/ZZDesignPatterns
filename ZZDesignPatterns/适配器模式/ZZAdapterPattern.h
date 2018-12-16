@@ -10,6 +10,6 @@
 
 @interface ZZAdapterPattern : NSObject
 
-+ (void)showZZAdapterPattern;
++ (void)show;
 
 @end

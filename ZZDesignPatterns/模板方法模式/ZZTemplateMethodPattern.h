@@ -10,6 +10,6 @@
 
 @interface ZZTemplateMethodPattern : NSObject
 
-+ (void)showZZTemplateMethodPattern;
++ (void)show;
 
 @end

@@ -13,7 +13,7 @@
 
 @implementation ZZTemplateMethodPattern
 
-+ (void)showZZTemplateMethodPattern
++ (void)show
 {
     NSLog(@">>>> question:");
 
