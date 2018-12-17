@@ -116,12 +116,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ZZDesignPatterns/&#x5de5;&#x5382;&#x65b9;&#x6cd5;&#x6a21;&#x5f0f;/ZZFactoryMethodPattern.m"
-            timestampString = "566719852.8287669"
+            timestampString = "566728426.980294"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "+showFactoryMethod"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "+showSimpleFactory"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

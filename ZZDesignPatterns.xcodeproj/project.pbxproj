@@ -22,6 +22,15 @@
 		5427697F21C7721000FF5912 /* ZZMultiplyFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427697E21C7721000FF5912 /* ZZMultiplyFactory.m */; };
 		5427698221C7722000FF5912 /* ZZDivideFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427698121C7721F00FF5912 /* ZZDivideFactory.m */; };
 		5427698521C7758300FF5912 /* ZZPowerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427698421C7758300FF5912 /* ZZPowerFactory.m */; };
+		5427698821C78B0000FF5912 /* ZZServerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427698721C78B0000FF5912 /* ZZServerFactory.m */; };
+		5427698B21C78B4200FF5912 /* ZZSQLServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427698A21C78B4200FF5912 /* ZZSQLServer.m */; };
+		5427698E21C78B9100FF5912 /* ZZOracleServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427698D21C78B9100FF5912 /* ZZOracleServer.m */; };
+		5427699121C78BCB00FF5912 /* ZZUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427699021C78BCB00FF5912 /* ZZUser.m */; };
+		5427699421C78BEB00FF5912 /* ZZSQLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427699321C78BEB00FF5912 /* ZZSQLUser.m */; };
+		5427699721C78C0000FF5912 /* ZZOracleUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427699621C78C0000FF5912 /* ZZOracleUser.m */; };
+		5427699A21C78C1100FF5912 /* ZZDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427699921C78C1100FF5912 /* ZZDepartment.m */; };
+		5427699D21C78C3200FF5912 /* ZZSQLDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427699C21C78C3200FF5912 /* ZZSQLDepartment.m */; };
+		542769A021C78C9C00FF5912 /* ZZOracleDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5427699F21C78C9C00FF5912 /* ZZOracleDepartment.m */; };
 		5443DA8021BA9F02008C8B9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5443DA7F21BA9F02008C8B9E /* AppDelegate.m */; };
 		5443DA8321BA9F02008C8B9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5443DA8221BA9F02008C8B9E /* ViewController.m */; };
 		5443DA8621BA9F02008C8B9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5443DA8421BA9F02008C8B9E /* Main.storyboard */; };
@@ -158,6 +167,24 @@
 		5427698121C7721F00FF5912 /* ZZDivideFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZDivideFactory.m; sourceTree = "<group>"; };
 		5427698321C7758300FF5912 /* ZZPowerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPowerFactory.h; sourceTree = "<group>"; };
 		5427698421C7758300FF5912 /* ZZPowerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPowerFactory.m; sourceTree = "<group>"; };
+		5427698621C78B0000FF5912 /* ZZServerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZServerFactory.h; sourceTree = "<group>"; };
+		5427698721C78B0000FF5912 /* ZZServerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZServerFactory.m; sourceTree = "<group>"; };
+		5427698921C78B4200FF5912 /* ZZSQLServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSQLServer.h; sourceTree = "<group>"; };
+		5427698A21C78B4200FF5912 /* ZZSQLServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSQLServer.m; sourceTree = "<group>"; };
+		5427698C21C78B9100FF5912 /* ZZOracleServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZOracleServer.h; sourceTree = "<group>"; };
+		5427698D21C78B9100FF5912 /* ZZOracleServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZOracleServer.m; sourceTree = "<group>"; };
+		5427698F21C78BCB00FF5912 /* ZZUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZUser.h; sourceTree = "<group>"; };
+		5427699021C78BCB00FF5912 /* ZZUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZUser.m; sourceTree = "<group>"; };
+		5427699221C78BEB00FF5912 /* ZZSQLUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSQLUser.h; sourceTree = "<group>"; };
+		5427699321C78BEB00FF5912 /* ZZSQLUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSQLUser.m; sourceTree = "<group>"; };
+		5427699521C78C0000FF5912 /* ZZOracleUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZOracleUser.h; sourceTree = "<group>"; };
+		5427699621C78C0000FF5912 /* ZZOracleUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZOracleUser.m; sourceTree = "<group>"; };
+		5427699821C78C1100FF5912 /* ZZDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZDepartment.h; sourceTree = "<group>"; };
+		5427699921C78C1100FF5912 /* ZZDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZDepartment.m; sourceTree = "<group>"; };
+		5427699B21C78C3200FF5912 /* ZZSQLDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZSQLDepartment.h; sourceTree = "<group>"; };
+		5427699C21C78C3200FF5912 /* ZZSQLDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZSQLDepartment.m; sourceTree = "<group>"; };
+		5427699E21C78C9C00FF5912 /* ZZOracleDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZOracleDepartment.h; sourceTree = "<group>"; };
+		5427699F21C78C9C00FF5912 /* ZZOracleDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZOracleDepartment.m; sourceTree = "<group>"; };
 		5443DA7B21BA9F02008C8B9E /* ZZDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5443DA7E21BA9F02008C8B9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5443DA7F21BA9F02008C8B9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -440,6 +467,24 @@
 		5427695B21C750F700FF5912 /* AbstractFactory */ = {
 			isa = PBXGroup;
 			children = (
+				5427698621C78B0000FF5912 /* ZZServerFactory.h */,
+				5427698721C78B0000FF5912 /* ZZServerFactory.m */,
+				5427698921C78B4200FF5912 /* ZZSQLServer.h */,
+				5427698A21C78B4200FF5912 /* ZZSQLServer.m */,
+				5427698C21C78B9100FF5912 /* ZZOracleServer.h */,
+				5427698D21C78B9100FF5912 /* ZZOracleServer.m */,
+				5427698F21C78BCB00FF5912 /* ZZUser.h */,
+				5427699021C78BCB00FF5912 /* ZZUser.m */,
+				5427699221C78BEB00FF5912 /* ZZSQLUser.h */,
+				5427699321C78BEB00FF5912 /* ZZSQLUser.m */,
+				5427699521C78C0000FF5912 /* ZZOracleUser.h */,
+				5427699621C78C0000FF5912 /* ZZOracleUser.m */,
+				5427699821C78C1100FF5912 /* ZZDepartment.h */,
+				5427699921C78C1100FF5912 /* ZZDepartment.m */,
+				5427699B21C78C3200FF5912 /* ZZSQLDepartment.h */,
+				5427699C21C78C3200FF5912 /* ZZSQLDepartment.m */,
+				5427699E21C78C9C00FF5912 /* ZZOracleDepartment.h */,
+				5427699F21C78C9C00FF5912 /* ZZOracleDepartment.m */,
 			);
 			path = AbstractFactory;
 			sourceTree = "<group>";
@@ -1047,6 +1092,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5427698B21C78B4200FF5912 /* ZZSQLServer.m in Sources */,
 				5427696421C7699C00FF5912 /* ZZOperationAdd.m in Sources */,
 				5427698521C7758300FF5912 /* ZZPowerFactory.m in Sources */,
 				5450926721C0EDE700A3701B /* ZZDecoratorFinery.m in Sources */,
@@ -1061,11 +1107,13 @@
 				54B035BB21BAAD220043B974 /* ZZSingletonB.m in Sources */,
 				5427696A21C769C300FF5912 /* ZZOperationMultiply.m in Sources */,
 				5443DAAC21BAA621008C8B9E /* ZZMangerLow.m in Sources */,
+				5427699121C78BCB00FF5912 /* ZZUser.m in Sources */,
 				545091F821BFB41000A3701B /* ZZBuilderDirector.m in Sources */,
 				5443DA9A21BA9FF3008C8B9E /* ZZRequest.m in Sources */,
 				545091D521BE977C00A3701B /* ZZStateNoon.m in Sources */,
 				5450923C21BFF83700A3701B /* ZZProxyPattern.m in Sources */,
 				545091D821BE979700A3701B /* ZZStateAfternoon.m in Sources */,
+				5427698821C78B0000FF5912 /* ZZServerFactory.m in Sources */,
 				545091A421BE635500A3701B /* ZZIteratorQueue.m in Sources */,
 				545092B721C34CF100A3701B /* ZZBridgePattern.m in Sources */,
 				54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */,
@@ -1073,9 +1121,12 @@
 				545091C121BE812200A3701B /* ZZAdapterPlayerAdapter.m in Sources */,
 				5450919821BE15F900A3701B /* ZZSingletonPattern.m in Sources */,
 				545092B221C2654700A3701B /* ZZMediatorUNSecurityCouncil.m in Sources */,
+				542769A021C78C9C00FF5912 /* ZZOracleDepartment.m in Sources */,
 				5450921D21BFDC6200A3701B /* ZZTemplateMethodQuestion.m in Sources */,
 				5427696721C769AE00FF5912 /* ZZOperationSubtract.m in Sources */,
 				5427697621C771CD00FF5912 /* ZZAddFactory.m in Sources */,
+				5427699721C78C0000FF5912 /* ZZOracleUser.m in Sources */,
+				5427699D21C78C3200FF5912 /* ZZSQLDepartment.m in Sources */,
 				5450929821C2424300A3701B /* ZZInterpreterExpressionCapital.m in Sources */,
 				5450927E21C231BF00A3701B /* ZZVisitorWoman.m in Sources */,
 				545091AE21BE7C6400A3701B /* ZZAdapterSimpleSample.m in Sources */,
@@ -1098,6 +1149,7 @@
 				545092AF21C2650900A3701B /* ZZMediatorAmerica.m in Sources */,
 				545091C821BE970800A3701B /* ZZStatePattern.m in Sources */,
 				5427695A21C74A2C00FF5912 /* ZZAbstractFactoryPattern.m in Sources */,
+				5427699A21C78C1100FF5912 /* ZZDepartment.m in Sources */,
 				545092DB21C3892100A3701B /* ZZCompositeLeaf.m in Sources */,
 				5450926D21C0EE4A00A3701B /* ZZDecoratorHat.m in Sources */,
 				5450920621BFCBA500A3701B /* ZZFacadeSpring.m in Sources */,
@@ -1109,6 +1161,7 @@
 				5450927021C0EE6C00A3701B /* ZZDecoratorShoes.m in Sources */,
 				5450928D21C239F100A3701B /* ZZVisitorActionLove.m in Sources */,
 				545092D021C34E8C00A3701B /* ZZBridgeSoftEmail.m in Sources */,
+				5427698E21C78B9100FF5912 /* ZZOracleServer.m in Sources */,
 				545092BE21C34D8F00A3701B /* ZZBridgePhoneSoft.m in Sources */,
 				5450928421C231FB00A3701B /* ZZVisitorActionSuccess.m in Sources */,
 				5443DA8E21BA9F03008C8B9E /* main.m in Sources */,
@@ -1132,6 +1185,7 @@
 				545092CD21C34E6000A3701B /* ZZBridgeSoftTetris.m in Sources */,
 				545091EF21BFB3AE00A3701B /* ZZBuilderBuilder.m in Sources */,
 				5450926021C0ED8E00A3701B /* ZZDecoratorPattern.m in Sources */,
+				5427699421C78BEB00FF5912 /* ZZSQLUser.m in Sources */,
 				5450928121C231D300A3701B /* ZZVisitorAction.m in Sources */,
 				545091C421BE813F00A3701B /* ZZAdapterPlayerNBA.m in Sources */,
 				5450919521BE159400A3701B /* ZZChainOfResponsibilityPattern.m in Sources */,
