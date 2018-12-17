@@ -25,6 +25,7 @@
 #import "ZZMementoPattern.h"
 #import "ZZObserverPattern.h"
 #import "ZZStatePattern.h"
+#import "ZZStrategyPattern.h"
 #import "ZZTemplateMethodPattern.h"
 #import "ZZVisitorPattern.h"
 
@@ -51,6 +52,7 @@
 //    [ZZMementoPattern show];/*18.备忘录模式*/
 //    [ZZObserverPattern show];/*19.观察者模式*/
 //    [ZZStatePattern show];/*20.状态模式*/
+//    [ZZStrategyPattern show];/*21.策略模式*/
 //    [ZZTemplateMethodPattern show];/*22.模板方法模式*/
 //    [ZZVisitorPattern show];/*23.访问者模式*/
 }
