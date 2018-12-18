@@ -116,12 +116,171 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ZZDesignPatterns/&#x5de5;&#x5382;&#x65b9;&#x6cd5;&#x6a21;&#x5f0f;/ZZFactoryMethodPattern.m"
-            timestampString = "566732948.814177"
+            timestampString = "566825792.920501"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
             endingLineNumber = "64"
-            landmarkName = "+showSimpleFactory"
+            landmarkName = "+showFactoryMethod"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZZDesignPatterns/ZZTableViewController.m"
+            timestampString = "566825792.92059"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZZDesignPatterns/ZZTableViewController.m"
+            timestampString = "566825792.920652"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZZDesignPatterns/&#x4eab;&#x5143;&#x6a21;&#x5f0f;/Flyweight/ZZWebSiteFactory.m"
+            timestampString = "566825792.920714"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "-webSiteWithKey:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZZDesignPatterns/&#x4eab;&#x5143;&#x6a21;&#x5f0f;/Flyweight/ZZHashTable.m"
+            timestampString = "566825792.920783"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "-count"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZZDesignPatterns/&#x4eab;&#x5143;&#x6a21;&#x5f0f;/Flyweight/ZZHashTable.m"
+            timestampString = "566825792.920848"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "-count"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ZZHashTable count]"
+                  moduleName = "ZZDesignPatterns"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xumianjun/Documents/GitHub/ZZDesignPatterns/ZZDesignPatterns/%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F/Flyweight/ZZHashTable.m"
+                  timestampString = "566812236.611935"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__20-[ZZHashTable count]_block_invoke"
+                  moduleName = "ZZDesignPatterns"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xumianjun/Documents/GitHub/ZZDesignPatterns/ZZDesignPatterns/%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F/Flyweight/ZZHashTable.m"
+                  timestampString = "566812236.614843"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "74">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_"
+                  moduleName = "ZZDesignPatterns"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xumianjun/Documents/GitHub/ZZDesignPatterns/ZZDesignPatterns/%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F/Flyweight/ZZHashTable.m"
+                  timestampString = "566812236.617345"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "17">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZZDesignPatterns/&#x4eab;&#x5143;&#x6a21;&#x5f0f;/ZZFlyweightPattern.m"
+            timestampString = "566825792.920912"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "+show"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ZZDesignPatterns/&#x4eab;&#x5143;&#x6a21;&#x5f0f;/Flyweight/ZZHashTable.m"
+            timestampString = "566825792.920963"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "117"
+            endingLineNumber = "117"
+            landmarkName = "-addHashNode:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

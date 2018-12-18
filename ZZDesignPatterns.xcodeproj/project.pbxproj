@@ -37,8 +37,23 @@
 		542769AE21C7A32600FF5912 /* ZZCashChargeNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769AD21C7A32600FF5912 /* ZZCashChargeNormal.m */; };
 		542769B121C7A34C00FF5912 /* ZZCashChargeFullReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769B021C7A34C00FF5912 /* ZZCashChargeFullReturn.m */; };
 		542769B421C7A36C00FF5912 /* ZZCashChargeDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769B321C7A36C00FF5912 /* ZZCashChargeDiscount.m */; };
-		5443DA8021BA9F02008C8B9E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5443DA7F21BA9F02008C8B9E /* AppDelegate.m */; };
-		5443DA8321BA9F02008C8B9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5443DA8221BA9F02008C8B9E /* ViewController.m */; };
+		542769B821C7B3B500FF5912 /* ZZFlyweightPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769B721C7B3B500FF5912 /* ZZFlyweightPattern.m */; };
+		542769BD21C7B40500FF5912 /* ZZCommandPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769BC21C7B40500FF5912 /* ZZCommandPattern.m */; };
+		542769C021C7B62F00FF5912 /* DesignPatterns.plist in Resources */ = {isa = PBXBuildFile; fileRef = 542769BF21C7B62F00FF5912 /* DesignPatterns.plist */; };
+		542769C621C7C6FB00FF5912 /* ZZTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769C521C7C6FB00FF5912 /* ZZTableViewController.m */; };
+		542769C921C7C72600FF5912 /* ZZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769C821C7C72600FF5912 /* ZZAppDelegate.m */; };
+		542769CC21C7CD5700FF5912 /* ZZPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769CB21C7CD5700FF5912 /* ZZPatternViewController.m */; };
+		542769CF21C8994200FF5912 /* ZZPatternModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769CE21C8994200FF5912 /* ZZPatternModel.m */; };
+		542769D221C8CA7C00FF5912 /* ZZFlyweightUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769D121C8CA7C00FF5912 /* ZZFlyweightUser.m */; };
+		542769D521C8CAB800FF5912 /* ZZFlyweightWebSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769D421C8CAB800FF5912 /* ZZFlyweightWebSite.m */; };
+		542769D821C8CC1100FF5912 /* ZZWebSiteFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769D721C8CC1100FF5912 /* ZZWebSiteFactory.m */; };
+		542769DB21C8CDBC00FF5912 /* ZZHashTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769DA21C8CDBC00FF5912 /* ZZHashTable.m */; };
+		542769DE21C906E900FF5912 /* ZZCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769DD21C906E900FF5912 /* ZZCommand.m */; };
+		542769E121C906FF00FF5912 /* ZZCommandInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769E021C906FF00FF5912 /* ZZCommandInvoker.m */; };
+		542769E421C9071900FF5912 /* ZZCommandA.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769E321C9071900FF5912 /* ZZCommandA.m */; };
+		542769E721C9072200FF5912 /* ZZCommandB.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769E621C9072200FF5912 /* ZZCommandB.m */; };
+		542769EA21C9074E00FF5912 /* ZZCommandReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769E921C9074E00FF5912 /* ZZCommandReceiver.m */; };
+		542769ED21C912DC00FF5912 /* ZZCommandC.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769EC21C912DC00FF5912 /* ZZCommandC.m */; };
 		5443DA8621BA9F02008C8B9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5443DA8421BA9F02008C8B9E /* Main.storyboard */; };
 		5443DA8821BA9F03008C8B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5443DA8721BA9F03008C8B9E /* Assets.xcassets */; };
 		5443DA8B21BA9F03008C8B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5443DA8921BA9F03008C8B9E /* LaunchScreen.storyboard */; };
@@ -203,11 +218,40 @@
 		542769B021C7A34C00FF5912 /* ZZCashChargeFullReturn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCashChargeFullReturn.m; sourceTree = "<group>"; };
 		542769B221C7A36C00FF5912 /* ZZCashChargeDiscount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCashChargeDiscount.h; sourceTree = "<group>"; };
 		542769B321C7A36C00FF5912 /* ZZCashChargeDiscount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCashChargeDiscount.m; sourceTree = "<group>"; };
+		542769B621C7B3B500FF5912 /* ZZFlyweightPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFlyweightPattern.h; sourceTree = "<group>"; };
+		542769B721C7B3B500FF5912 /* ZZFlyweightPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFlyweightPattern.m; sourceTree = "<group>"; };
+		542769BB21C7B40500FF5912 /* ZZCommandPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCommandPattern.h; sourceTree = "<group>"; };
+		542769BC21C7B40500FF5912 /* ZZCommandPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCommandPattern.m; sourceTree = "<group>"; };
+		542769BF21C7B62F00FF5912 /* DesignPatterns.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DesignPatterns.plist; sourceTree = "<group>"; };
+		542769C421C7C6FB00FF5912 /* ZZTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZTableViewController.h; sourceTree = "<group>"; };
+		542769C521C7C6FB00FF5912 /* ZZTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTableViewController.m; sourceTree = "<group>"; };
+		542769C721C7C72600FF5912 /* ZZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZAppDelegate.h; sourceTree = "<group>"; };
+		542769C821C7C72600FF5912 /* ZZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZAppDelegate.m; sourceTree = "<group>"; };
+		542769CA21C7CD5700FF5912 /* ZZPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPatternViewController.h; sourceTree = "<group>"; };
+		542769CB21C7CD5700FF5912 /* ZZPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPatternViewController.m; sourceTree = "<group>"; };
+		542769CD21C8994200FF5912 /* ZZPatternModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZPatternModel.h; sourceTree = "<group>"; };
+		542769CE21C8994200FF5912 /* ZZPatternModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZPatternModel.m; sourceTree = "<group>"; };
+		542769D021C8CA7C00FF5912 /* ZZFlyweightUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFlyweightUser.h; sourceTree = "<group>"; };
+		542769D121C8CA7C00FF5912 /* ZZFlyweightUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFlyweightUser.m; sourceTree = "<group>"; };
+		542769D321C8CAB800FF5912 /* ZZFlyweightWebSite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZFlyweightWebSite.h; sourceTree = "<group>"; };
+		542769D421C8CAB800FF5912 /* ZZFlyweightWebSite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZFlyweightWebSite.m; sourceTree = "<group>"; };
+		542769D621C8CC1100FF5912 /* ZZWebSiteFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZWebSiteFactory.h; sourceTree = "<group>"; };
+		542769D721C8CC1100FF5912 /* ZZWebSiteFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZWebSiteFactory.m; sourceTree = "<group>"; };
+		542769D921C8CDBC00FF5912 /* ZZHashTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZHashTable.h; sourceTree = "<group>"; };
+		542769DA21C8CDBC00FF5912 /* ZZHashTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZHashTable.m; sourceTree = "<group>"; };
+		542769DC21C906E900FF5912 /* ZZCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCommand.h; sourceTree = "<group>"; };
+		542769DD21C906E900FF5912 /* ZZCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCommand.m; sourceTree = "<group>"; };
+		542769DF21C906FF00FF5912 /* ZZCommandInvoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCommandInvoker.h; sourceTree = "<group>"; };
+		542769E021C906FF00FF5912 /* ZZCommandInvoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCommandInvoker.m; sourceTree = "<group>"; };
+		542769E221C9071900FF5912 /* ZZCommandA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCommandA.h; sourceTree = "<group>"; };
+		542769E321C9071900FF5912 /* ZZCommandA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCommandA.m; sourceTree = "<group>"; };
+		542769E521C9072200FF5912 /* ZZCommandB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCommandB.h; sourceTree = "<group>"; };
+		542769E621C9072200FF5912 /* ZZCommandB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCommandB.m; sourceTree = "<group>"; };
+		542769E821C9074E00FF5912 /* ZZCommandReceiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCommandReceiver.h; sourceTree = "<group>"; };
+		542769E921C9074E00FF5912 /* ZZCommandReceiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCommandReceiver.m; sourceTree = "<group>"; };
+		542769EB21C912DC00FF5912 /* ZZCommandC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCommandC.h; sourceTree = "<group>"; };
+		542769EC21C912DC00FF5912 /* ZZCommandC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCommandC.m; sourceTree = "<group>"; };
 		5443DA7B21BA9F02008C8B9E /* ZZDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5443DA7E21BA9F02008C8B9E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5443DA7F21BA9F02008C8B9E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5443DA8121BA9F02008C8B9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5443DA8221BA9F02008C8B9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5443DA8521BA9F02008C8B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5443DA8721BA9F03008C8B9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5443DA8A21BA9F03008C8B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -534,6 +578,60 @@
 			path = Strategy;
 			sourceTree = "<group>";
 		};
+		542769B521C7B38A00FF5912 /* 享元模式 */ = {
+			isa = PBXGroup;
+			children = (
+				542769B921C7B3B900FF5912 /* Flyweight */,
+				542769B621C7B3B500FF5912 /* ZZFlyweightPattern.h */,
+				542769B721C7B3B500FF5912 /* ZZFlyweightPattern.m */,
+			);
+			path = "享元模式";
+			sourceTree = "<group>";
+		};
+		542769B921C7B3B900FF5912 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				542769D921C8CDBC00FF5912 /* ZZHashTable.h */,
+				542769DA21C8CDBC00FF5912 /* ZZHashTable.m */,
+				542769D021C8CA7C00FF5912 /* ZZFlyweightUser.h */,
+				542769D121C8CA7C00FF5912 /* ZZFlyweightUser.m */,
+				542769D321C8CAB800FF5912 /* ZZFlyweightWebSite.h */,
+				542769D421C8CAB800FF5912 /* ZZFlyweightWebSite.m */,
+				542769D621C8CC1100FF5912 /* ZZWebSiteFactory.h */,
+				542769D721C8CC1100FF5912 /* ZZWebSiteFactory.m */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
+		542769BA21C7B3E400FF5912 /* 命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				542769BE21C7B40900FF5912 /* Command */,
+				542769BB21C7B40500FF5912 /* ZZCommandPattern.h */,
+				542769BC21C7B40500FF5912 /* ZZCommandPattern.m */,
+			);
+			path = "命令模式";
+			sourceTree = "<group>";
+		};
+		542769BE21C7B40900FF5912 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				542769DC21C906E900FF5912 /* ZZCommand.h */,
+				542769DD21C906E900FF5912 /* ZZCommand.m */,
+				542769E221C9071900FF5912 /* ZZCommandA.h */,
+				542769E321C9071900FF5912 /* ZZCommandA.m */,
+				542769E521C9072200FF5912 /* ZZCommandB.h */,
+				542769E621C9072200FF5912 /* ZZCommandB.m */,
+				542769EB21C912DC00FF5912 /* ZZCommandC.h */,
+				542769EC21C912DC00FF5912 /* ZZCommandC.m */,
+				542769DF21C906FF00FF5912 /* ZZCommandInvoker.h */,
+				542769E021C906FF00FF5912 /* ZZCommandInvoker.m */,
+				542769E821C9074E00FF5912 /* ZZCommandReceiver.h */,
+				542769E921C9074E00FF5912 /* ZZCommandReceiver.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
 		5443DA7221BA9F02008C8B9E = {
 			isa = PBXGroup;
 			children = (
@@ -563,8 +661,10 @@
 				545092D121C3690000A3701B /* 组合模式 */,
 				5450925D21C0ED5600A3701B /* 装饰模式 */,
 				545091F921BFCAAD00A3701B /* 外观模式 */,
+				542769B521C7B38A00FF5912 /* 享元模式 */,
 				5450923921BFF81400A3701B /* 代理模式 */,
 				5443DA9421BA9F1C008C8B9E /* 责任链模式 */,
+				542769BA21C7B3E400FF5912 /* 命令模式 */,
 				5450928E21C2413B00A3701B /* 解释器模式 */,
 				5450919121BE0FA800A3701B /* 迭代器模式 */,
 				5450929F21C2600100A3701B /* 中介者模式 */,
@@ -574,10 +674,15 @@
 				542769A121C7A0B800FF5912 /* 策略模式 */,
 				5450921321BFDBBB00A3701B /* 模板方法模式 */,
 				5450927121C22EB300A3701B /* 访问者模式 */,
-				5443DA7E21BA9F02008C8B9E /* AppDelegate.h */,
-				5443DA7F21BA9F02008C8B9E /* AppDelegate.m */,
-				5443DA8121BA9F02008C8B9E /* ViewController.h */,
-				5443DA8221BA9F02008C8B9E /* ViewController.m */,
+				542769C721C7C72600FF5912 /* ZZAppDelegate.h */,
+				542769C821C7C72600FF5912 /* ZZAppDelegate.m */,
+				542769C421C7C6FB00FF5912 /* ZZTableViewController.h */,
+				542769C521C7C6FB00FF5912 /* ZZTableViewController.m */,
+				542769CA21C7CD5700FF5912 /* ZZPatternViewController.h */,
+				542769CB21C7CD5700FF5912 /* ZZPatternViewController.m */,
+				542769CD21C8994200FF5912 /* ZZPatternModel.h */,
+				542769CE21C8994200FF5912 /* ZZPatternModel.m */,
+				542769BF21C7B62F00FF5912 /* DesignPatterns.plist */,
 				5443DA8421BA9F02008C8B9E /* Main.storyboard */,
 				5443DA8721BA9F03008C8B9E /* Assets.xcassets */,
 				5443DA8921BA9F03008C8B9E /* LaunchScreen.storyboard */,
@@ -1126,6 +1231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5443DA8B21BA9F03008C8B9E /* LaunchScreen.storyboard in Resources */,
+				542769C021C7B62F00FF5912 /* DesignPatterns.plist in Resources */,
 				5443DA8821BA9F03008C8B9E /* Assets.xcassets in Resources */,
 				5443DA8621BA9F02008C8B9E /* Main.storyboard in Resources */,
 			);
@@ -1139,6 +1245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5427698B21C78B4200FF5912 /* ZZSQLServer.m in Sources */,
+				542769D521C8CAB800FF5912 /* ZZFlyweightWebSite.m in Sources */,
 				5427696421C7699C00FF5912 /* ZZOperationAdd.m in Sources */,
 				5427698521C7758300FF5912 /* ZZPowerFactory.m in Sources */,
 				5450926721C0EDE700A3701B /* ZZDecoratorFinery.m in Sources */,
@@ -1157,12 +1264,14 @@
 				545091F821BFB41000A3701B /* ZZBuilderDirector.m in Sources */,
 				5443DA9A21BA9FF3008C8B9E /* ZZRequest.m in Sources */,
 				545091D521BE977C00A3701B /* ZZStateNoon.m in Sources */,
+				542769C921C7C72600FF5912 /* ZZAppDelegate.m in Sources */,
 				5450923C21BFF83700A3701B /* ZZProxyPattern.m in Sources */,
 				545091D821BE979700A3701B /* ZZStateAfternoon.m in Sources */,
 				542769AE21C7A32600FF5912 /* ZZCashChargeNormal.m in Sources */,
 				5427698821C78B0000FF5912 /* ZZServerFactory.m in Sources */,
 				545091A421BE635500A3701B /* ZZIteratorQueue.m in Sources */,
 				545092B721C34CF100A3701B /* ZZBridgePattern.m in Sources */,
+				542769EA21C9074E00FF5912 /* ZZCommandReceiver.m in Sources */,
 				54B035B821BAAC670043B974 /* ZZSingletonA.m in Sources */,
 				5450922921BFDCB300A3701B /* ZZTemplateMethodAnswerB.m in Sources */,
 				545091C121BE812200A3701B /* ZZAdapterPlayerAdapter.m in Sources */,
@@ -1171,6 +1280,7 @@
 				545092B221C2654700A3701B /* ZZMediatorUNSecurityCouncil.m in Sources */,
 				542769A021C78C9C00FF5912 /* ZZOracleDepartment.m in Sources */,
 				5450921D21BFDC6200A3701B /* ZZTemplateMethodQuestion.m in Sources */,
+				542769E421C9071900FF5912 /* ZZCommandA.m in Sources */,
 				5427696721C769AE00FF5912 /* ZZOperationSubtract.m in Sources */,
 				5427697621C771CD00FF5912 /* ZZAddFactory.m in Sources */,
 				5427699721C78C0000FF5912 /* ZZOracleUser.m in Sources */,
@@ -1190,18 +1300,22 @@
 				5450919B21BE165B00A3701B /* ZZIterator.m in Sources */,
 				5450923121BFE8E000A3701B /* ZZPrototypeWorkHistory.m in Sources */,
 				5450924C21BFF95500A3701B /* ZZProxyLovelyGirl.m in Sources */,
+				542769C621C7C6FB00FF5912 /* ZZTableViewController.m in Sources */,
 				545092AC21C264E200A3701B /* ZZMediatorChina.m in Sources */,
-				5443DA8321BA9F02008C8B9E /* ViewController.m in Sources */,
+				542769B821C7B3B500FF5912 /* ZZFlyweightPattern.m in Sources */,
 				54B035C121BAC98B0043B974 /* ZZSingletonC.m in Sources */,
+				542769E121C906FF00FF5912 /* ZZCommandInvoker.m in Sources */,
 				5450926A21C0EE2400A3701B /* ZZDecoratorTShirt.m in Sources */,
 				545092AF21C2650900A3701B /* ZZMediatorAmerica.m in Sources */,
 				542769A421C7A0FC00FF5912 /* ZZStrategyPattern.m in Sources */,
 				545091C821BE970800A3701B /* ZZStatePattern.m in Sources */,
 				5427695A21C74A2C00FF5912 /* ZZAbstractFactoryPattern.m in Sources */,
 				5427699A21C78C1100FF5912 /* ZZDepartment.m in Sources */,
+				542769BD21C7B40500FF5912 /* ZZCommandPattern.m in Sources */,
 				545092DB21C3892100A3701B /* ZZCompositeLeaf.m in Sources */,
 				5450926D21C0EE4A00A3701B /* ZZDecoratorHat.m in Sources */,
 				5450920621BFCBA500A3701B /* ZZFacadeSpring.m in Sources */,
+				542769D821C8CC1100FF5912 /* ZZWebSiteFactory.m in Sources */,
 				5450927B21C231AF00A3701B /* ZZVisitorMan.m in Sources */,
 				5427695E21C768CC00FF5912 /* ZZOperationFactory.m in Sources */,
 				545091A121BE1DDF00A3701B /* ZZIteratorPattern.m in Sources */,
@@ -1213,6 +1327,7 @@
 				545092D021C34E8C00A3701B /* ZZBridgeSoftEmail.m in Sources */,
 				5427698E21C78B9100FF5912 /* ZZOracleServer.m in Sources */,
 				545092BE21C34D8F00A3701B /* ZZBridgePhoneSoft.m in Sources */,
+				542769CF21C8994200FF5912 /* ZZPatternModel.m in Sources */,
 				5450928421C231FB00A3701B /* ZZVisitorActionSuccess.m in Sources */,
 				5443DA8E21BA9F03008C8B9E /* main.m in Sources */,
 				5450921621BFDBF400A3701B /* ZZTemplateMethodPattern.m in Sources */,
@@ -1222,6 +1337,8 @@
 				5450926421C0EDB800A3701B /* ZZDecoratorPerson.m in Sources */,
 				5450929E21C2429C00A3701B /* ZZInterpreterContext.m in Sources */,
 				5427695421C7490500FF5912 /* ZZFactoryMethodPattern.m in Sources */,
+				542769ED21C912DC00FF5912 /* ZZCommandC.m in Sources */,
+				542769DB21C8CDBC00FF5912 /* ZZHashTable.m in Sources */,
 				545092A221C2604000A3701B /* ZZMediatorPattern.m in Sources */,
 				5450925521BFFA4F00A3701B /* ZZProxyPursuingBoy.m in Sources */,
 				5427698221C7722000FF5912 /* ZZDivideFactory.m in Sources */,
@@ -1241,8 +1358,9 @@
 				5450919521BE159400A3701B /* ZZChainOfResponsibilityPattern.m in Sources */,
 				5427697921C771DB00FF5912 /* ZZSubstractFactory.m in Sources */,
 				54B035CF21BAD8A90043B974 /* ZZSingletonE1.m in Sources */,
+				542769DE21C906E900FF5912 /* ZZCommand.m in Sources */,
+				542769CC21C7CD5700FF5912 /* ZZPatternViewController.m in Sources */,
 				545092A921C264CC00A3701B /* ZZMediatorCountry.m in Sources */,
-				5443DA8021BA9F02008C8B9E /* AppDelegate.m in Sources */,
 				545092BB21C34D7300A3701B /* ZZBridgePhoneBrand.m in Sources */,
 				545091CC21BE973500A3701B /* ZZStateWork.m in Sources */,
 				545091F521BFB3F000A3701B /* ZZBuilderWindowsBuilder.m in Sources */,
@@ -1258,6 +1376,7 @@
 				5427697F21C7721000FF5912 /* ZZMultiplyFactory.m in Sources */,
 				545092C721C34DEE00A3701B /* ZZBridgeHuawei.m in Sources */,
 				545091F221BFB3DF00A3701B /* ZZBuilderMacBuilder.m in Sources */,
+				542769D221C8CA7C00FF5912 /* ZZFlyweightUser.m in Sources */,
 				545091D221BE976F00A3701B /* ZZStateMorning.m in Sources */,
 				54B035C421BAC9B30043B974 /* ZZSingletonD.m in Sources */,
 				542769AB21C7A2CD00FF5912 /* ZZCashCharge.m in Sources */,
@@ -1267,6 +1386,7 @@
 				542769B121C7A34C00FF5912 /* ZZCashChargeFullReturn.m in Sources */,
 				5450922321BFDC9300A3701B /* ZZTemplateMethodAnswer.m in Sources */,
 				5450922E21BFE44000A3701B /* ZZPrototypePattern.m in Sources */,
+				542769E721C9072200FF5912 /* ZZCommandB.m in Sources */,
 				5450923421BFE90400A3701B /* ZZPrototypeResume.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
