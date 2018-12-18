@@ -43,7 +43,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:identifier];
     }
     ZZPatternModel *pattern = self.patterns[indexPath.row];
-    cell.textLabel.text = pattern.name;
+    cell.textLabel.text = [NSString stringWithFormat:@"%@.%@", pattern.ID, pattern.name];
     cell.detailTextLabel.text = pattern.type;
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;

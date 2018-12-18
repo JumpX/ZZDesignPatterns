@@ -54,6 +54,7 @@
 		542769E721C9072200FF5912 /* ZZCommandB.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769E621C9072200FF5912 /* ZZCommandB.m */; };
 		542769EA21C9074E00FF5912 /* ZZCommandReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769E921C9074E00FF5912 /* ZZCommandReceiver.m */; };
 		542769ED21C912DC00FF5912 /* ZZCommandC.m in Sources */ = {isa = PBXBuildFile; fileRef = 542769EC21C912DC00FF5912 /* ZZCommandC.m */; };
+		542769EF21C922CA00FF5912 /* 观察者模式.md in Resources */ = {isa = PBXBuildFile; fileRef = 542769EE21C922CA00FF5912 /* 观察者模式.md */; };
 		5443DA8621BA9F02008C8B9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5443DA8421BA9F02008C8B9E /* Main.storyboard */; };
 		5443DA8821BA9F03008C8B9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5443DA8721BA9F03008C8B9E /* Assets.xcassets */; };
 		5443DA8B21BA9F03008C8B9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5443DA8921BA9F03008C8B9E /* LaunchScreen.storyboard */; };
@@ -251,6 +252,7 @@
 		542769E921C9074E00FF5912 /* ZZCommandReceiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCommandReceiver.m; sourceTree = "<group>"; };
 		542769EB21C912DC00FF5912 /* ZZCommandC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZZCommandC.h; sourceTree = "<group>"; };
 		542769EC21C912DC00FF5912 /* ZZCommandC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZCommandC.m; sourceTree = "<group>"; };
+		542769EE21C922CA00FF5912 /* 观察者模式.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "观察者模式.md"; sourceTree = "<group>"; };
 		5443DA7B21BA9F02008C8B9E /* ZZDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5443DA8521BA9F02008C8B9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5443DA8721BA9F03008C8B9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -1115,6 +1117,7 @@
 				545092F121C3C1AC00A3701B /* Observer */,
 				545092EE21C3C1A800A3701B /* ZZObserverPattern.h */,
 				545092EF21C3C1A800A3701B /* ZZObserverPattern.m */,
+				542769EE21C922CA00FF5912 /* 观察者模式.md */,
 			);
 			path = "观察者模式";
 			sourceTree = "<group>";
@@ -1234,6 +1237,7 @@
 				542769C021C7B62F00FF5912 /* DesignPatterns.plist in Resources */,
 				5443DA8821BA9F03008C8B9E /* Assets.xcassets in Resources */,
 				5443DA8621BA9F02008C8B9E /* Main.storyboard in Resources */,
+				542769EF21C922CA00FF5912 /* 观察者模式.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
